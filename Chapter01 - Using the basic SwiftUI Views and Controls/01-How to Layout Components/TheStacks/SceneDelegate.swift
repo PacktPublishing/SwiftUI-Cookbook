@@ -1,9 +1,9 @@
 //
 //  SceneDelegate.swift
-//  How to Layout Components
+//  TheStacks
 //
 //  Created by Edgar Nzokwe on 2/27/20.
-//  Copyright © 2020 charmcitysoft. All rights reserved.
+//  Copyright © 2020 Edgar Nzokwe. All rights reserved.
 //
 
 import UIKit

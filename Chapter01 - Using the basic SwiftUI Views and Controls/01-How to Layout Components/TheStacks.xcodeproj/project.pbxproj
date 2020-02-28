@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7AE407FA2407BE46000E76BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE407F92407BE46000E76BB /* AppDelegate.swift */; };
-		7AE407FC2407BE46000E76BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE407FB2407BE46000E76BB /* SceneDelegate.swift */; };
-		7AE407FE2407BE46000E76BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE407FD2407BE46000E76BB /* ContentView.swift */; };
-		7AE408002407BE48000E76BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE407FF2407BE48000E76BB /* Assets.xcassets */; };
-		7AE408032407BE48000E76BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE408022407BE48000E76BB /* Preview Assets.xcassets */; };
-		7AE408062407BE48000E76BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE408042407BE48000E76BB /* LaunchScreen.storyboard */; };
+		7A0C116324089B6200989157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C116224089B6200989157 /* AppDelegate.swift */; };
+		7A0C116524089B6200989157 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C116424089B6200989157 /* SceneDelegate.swift */; };
+		7A0C116724089B6200989157 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C116624089B6200989157 /* ContentView.swift */; };
+		7A0C116924089B6400989157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C116824089B6400989157 /* Assets.xcassets */; };
+		7A0C116C24089B6400989157 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C116B24089B6400989157 /* Preview Assets.xcassets */; };
+		7A0C116F24089B6400989157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C116D24089B6400989157 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7AE407F62407BE46000E76BB /* How to Layout Components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How to Layout Components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AE407F92407BE46000E76BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7AE407FB2407BE46000E76BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7AE407FD2407BE46000E76BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7AE407FF2407BE48000E76BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7AE408022407BE48000E76BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7AE408052407BE48000E76BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7AE408072407BE48000E76BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0C115F24089B6200989157 /* TheStacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheStacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0C116224089B6200989157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A0C116424089B6200989157 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A0C116624089B6200989157 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A0C116824089B6400989157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A0C116B24089B6400989157 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A0C116E24089B6400989157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A0C117024089B6400989157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7AE407F32407BE46000E76BB /* Frameworks */ = {
+		7A0C115C24089B6200989157 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,40 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7AE407ED2407BE46000E76BB = {
+		7A0C115624089B6100989157 = {
 			isa = PBXGroup;
 			children = (
-				7AE407F82407BE46000E76BB /* How to Layout Components */,
-				7AE407F72407BE46000E76BB /* Products */,
+				7A0C116124089B6200989157 /* TheStacks */,
+				7A0C116024089B6200989157 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7AE407F72407BE46000E76BB /* Products */ = {
+		7A0C116024089B6200989157 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7AE407F62407BE46000E76BB /* How to Layout Components.app */,
+				7A0C115F24089B6200989157 /* TheStacks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7AE407F82407BE46000E76BB /* How to Layout Components */ = {
+		7A0C116124089B6200989157 /* TheStacks */ = {
 			isa = PBXGroup;
 			children = (
-				7AE407F92407BE46000E76BB /* AppDelegate.swift */,
-				7AE407FB2407BE46000E76BB /* SceneDelegate.swift */,
-				7AE407FD2407BE46000E76BB /* ContentView.swift */,
-				7AE407FF2407BE48000E76BB /* Assets.xcassets */,
-				7AE408042407BE48000E76BB /* LaunchScreen.storyboard */,
-				7AE408072407BE48000E76BB /* Info.plist */,
-				7AE408012407BE48000E76BB /* Preview Content */,
+				7A0C116224089B6200989157 /* AppDelegate.swift */,
+				7A0C116424089B6200989157 /* SceneDelegate.swift */,
+				7A0C116624089B6200989157 /* ContentView.swift */,
+				7A0C116824089B6400989157 /* Assets.xcassets */,
+				7A0C116D24089B6400989157 /* LaunchScreen.storyboard */,
+				7A0C117024089B6400989157 /* Info.plist */,
+				7A0C116A24089B6400989157 /* Preview Content */,
 			);
-			path = "How to Layout Components";
+			path = TheStacks;
 			sourceTree = "<group>";
 		};
-		7AE408012407BE48000E76BB /* Preview Content */ = {
+		7A0C116A24089B6400989157 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7AE408022407BE48000E76BB /* Preview Assets.xcassets */,
+				7A0C116B24089B6400989157 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,39 +78,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7AE407F52407BE46000E76BB /* How to Layout Components */ = {
+		7A0C115E24089B6200989157 /* TheStacks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AE4080A2407BE48000E76BB /* Build configuration list for PBXNativeTarget "How to Layout Components" */;
+			buildConfigurationList = 7A0C117324089B6400989157 /* Build configuration list for PBXNativeTarget "TheStacks" */;
 			buildPhases = (
-				7AE407F22407BE46000E76BB /* Sources */,
-				7AE407F32407BE46000E76BB /* Frameworks */,
-				7AE407F42407BE46000E76BB /* Resources */,
+				7A0C115B24089B6200989157 /* Sources */,
+				7A0C115C24089B6200989157 /* Frameworks */,
+				7A0C115D24089B6200989157 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "How to Layout Components";
-			productName = "How to Layout Components";
-			productReference = 7AE407F62407BE46000E76BB /* How to Layout Components.app */;
+			name = TheStacks;
+			productName = TheStacks;
+			productReference = 7A0C115F24089B6200989157 /* TheStacks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7AE407EE2407BE46000E76BB /* Project object */ = {
+		7A0C115724089B6200989157 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
-				ORGANIZATIONNAME = charmcitysoft;
+				ORGANIZATIONNAME = "Edgar Nzokwe";
 				TargetAttributes = {
-					7AE407F52407BE46000E76BB = {
+					7A0C115E24089B6200989157 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
 			};
-			buildConfigurationList = 7AE407F12407BE46000E76BB /* Build configuration list for PBXProject "How to Layout Components" */;
+			buildConfigurationList = 7A0C115A24089B6200989157 /* Build configuration list for PBXProject "TheStacks" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,47 +118,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 7AE407ED2407BE46000E76BB;
-			productRefGroup = 7AE407F72407BE46000E76BB /* Products */;
+			mainGroup = 7A0C115624089B6100989157;
+			productRefGroup = 7A0C116024089B6200989157 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7AE407F52407BE46000E76BB /* How to Layout Components */,
+				7A0C115E24089B6200989157 /* TheStacks */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7AE407F42407BE46000E76BB /* Resources */ = {
+		7A0C115D24089B6200989157 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE408062407BE48000E76BB /* LaunchScreen.storyboard in Resources */,
-				7AE408032407BE48000E76BB /* Preview Assets.xcassets in Resources */,
-				7AE408002407BE48000E76BB /* Assets.xcassets in Resources */,
+				7A0C116F24089B6400989157 /* LaunchScreen.storyboard in Resources */,
+				7A0C116C24089B6400989157 /* Preview Assets.xcassets in Resources */,
+				7A0C116924089B6400989157 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7AE407F22407BE46000E76BB /* Sources */ = {
+		7A0C115B24089B6200989157 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE407FA2407BE46000E76BB /* AppDelegate.swift in Sources */,
-				7AE407FC2407BE46000E76BB /* SceneDelegate.swift in Sources */,
-				7AE407FE2407BE46000E76BB /* ContentView.swift in Sources */,
+				7A0C116324089B6200989157 /* AppDelegate.swift in Sources */,
+				7A0C116524089B6200989157 /* SceneDelegate.swift in Sources */,
+				7A0C116724089B6200989157 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7AE408042407BE48000E76BB /* LaunchScreen.storyboard */ = {
+		7A0C116D24089B6400989157 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7AE408052407BE48000E76BB /* Base */,
+				7A0C116E24089B6400989157 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7AE408082407BE48000E76BB /* Debug */ = {
+		7A0C117124089B6400989157 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		7AE408092407BE48000E76BB /* Release */ = {
+		7A0C117224089B6400989157 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,40 +280,40 @@
 			};
 			name = Release;
 		};
-		7AE4080B2407BE48000E76BB /* Debug */ = {
+		7A0C117424089B6400989157 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"How to Layout Components/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TheStacks/Preview Content\"";
 				DEVELOPMENT_TEAM = VTCMU55NAJ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "How to Layout Components/Info.plist";
+				INFOPLIST_FILE = TheStacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.charmcitysoft.How-to-Layout-Components";
+				PRODUCT_BUNDLE_IDENTIFIER = "Edgar-Nzokwe.TheStacks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7AE4080C2407BE48000E76BB /* Release */ = {
+		7A0C117524089B6400989157 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"How to Layout Components/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TheStacks/Preview Content\"";
 				DEVELOPMENT_TEAM = VTCMU55NAJ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "How to Layout Components/Info.plist";
+				INFOPLIST_FILE = TheStacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.charmcitysoft.How-to-Layout-Components";
+				PRODUCT_BUNDLE_IDENTIFIER = "Edgar-Nzokwe.TheStacks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7AE407F12407BE46000E76BB /* Build configuration list for PBXProject "How to Layout Components" */ = {
+		7A0C115A24089B6200989157 /* Build configuration list for PBXProject "TheStacks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AE408082407BE48000E76BB /* Debug */,
-				7AE408092407BE48000E76BB /* Release */,
+				7A0C117124089B6400989157 /* Debug */,
+				7A0C117224089B6400989157 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AE4080A2407BE48000E76BB /* Build configuration list for PBXNativeTarget "How to Layout Components" */ = {
+		7A0C117324089B6400989157 /* Build configuration list for PBXNativeTarget "TheStacks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AE4080B2407BE48000E76BB /* Debug */,
-				7AE4080C2407BE48000E76BB /* Release */,
+				7A0C117424089B6400989157 /* Debug */,
+				7A0C117524089B6400989157 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7AE407EE2407BE46000E76BB /* Project object */;
+	rootObject = 7A0C115724089B6200989157 /* Project object */;
 }
