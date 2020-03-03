@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEDE55E7240D0DE300D2C773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDE55E6240D0DE300D2C773 /* AppDelegate.swift */; };
+		EEDE55E9240D0DE300D2C773 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDE55E8240D0DE300D2C773 /* SceneDelegate.swift */; };
+		EEDE55EB240D0DE300D2C773 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDE55EA240D0DE300D2C773 /* ContentView.swift */; };
+		EEDE55ED240D0DE500D2C773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDE55EC240D0DE500D2C773 /* Assets.xcassets */; };
+		EEDE55F0240D0DE600D2C773 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDE55EF240D0DE600D2C773 /* Preview Assets.xcassets */; };
+		EEDE55F3240D0DE600D2C773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDE55F1240D0DE600D2C773 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEDE55E3240D0DE300D2C773 /* ImageBorderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageBorderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDE55E6240D0DE300D2C773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEDE55E8240D0DE300D2C773 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EEDE55EA240D0DE300D2C773 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEDE55EC240D0DE500D2C773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEDE55EF240D0DE600D2C773 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEDE55F2240D0DE600D2C773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEDE55F4240D0DE600D2C773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEDE55E0240D0DE300D2C773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEDE55DA240D0DE300D2C773 = {
+			isa = PBXGroup;
+			children = (
+				EEDE55E5240D0DE300D2C773 /* ImageBorderApp */,
+				EEDE55E4240D0DE300D2C773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEDE55E4240D0DE300D2C773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEDE55E3240D0DE300D2C773 /* ImageBorderApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEDE55E5240D0DE300D2C773 /* ImageBorderApp */ = {
+			isa = PBXGroup;
+			children = (
+				EEDE55E6240D0DE300D2C773 /* AppDelegate.swift */,
+				EEDE55E8240D0DE300D2C773 /* SceneDelegate.swift */,
+				EEDE55EA240D0DE300D2C773 /* ContentView.swift */,
+				EEDE55EC240D0DE500D2C773 /* Assets.xcassets */,
+				EEDE55F1240D0DE600D2C773 /* LaunchScreen.storyboard */,
+				EEDE55F4240D0DE600D2C773 /* Info.plist */,
+				EEDE55EE240D0DE600D2C773 /* Preview Content */,
+			);
+			path = ImageBorderApp;
+			sourceTree = "<group>";
+		};
+		EEDE55EE240D0DE600D2C773 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEDE55EF240D0DE600D2C773 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEDE55E2240D0DE300D2C773 /* ImageBorderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDE55F7240D0DE600D2C773 /* Build configuration list for PBXNativeTarget "ImageBorderApp" */;
+			buildPhases = (
+				EEDE55DF240D0DE300D2C773 /* Sources */,
+				EEDE55E0240D0DE300D2C773 /* Frameworks */,
+				EEDE55E1240D0DE300D2C773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageBorderApp;
+			productName = ImageBorderApp;
+			productReference = EEDE55E3240D0DE300D2C773 /* ImageBorderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEDE55DB240D0DE300D2C773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "giordano scalzo";
+				TargetAttributes = {
+					EEDE55E2240D0DE300D2C773 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = EEDE55DE240D0DE300D2C773 /* Build configuration list for PBXProject "ImageBorderApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEDE55DA240D0DE300D2C773;
+			productRefGroup = EEDE55E4240D0DE300D2C773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEDE55E2240D0DE300D2C773 /* ImageBorderApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEDE55E1240D0DE300D2C773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDE55F3240D0DE600D2C773 /* LaunchScreen.storyboard in Resources */,
+				EEDE55F0240D0DE600D2C773 /* Preview Assets.xcassets in Resources */,
+				EEDE55ED240D0DE500D2C773 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEDE55DF240D0DE300D2C773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDE55E7240D0DE300D2C773 /* AppDelegate.swift in Sources */,
+				EEDE55E9240D0DE300D2C773 /* SceneDelegate.swift in Sources */,
+				EEDE55EB240D0DE300D2C773 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEDE55F1240D0DE600D2C773 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDE55F2240D0DE600D2C773 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEDE55F5240D0DE600D2C773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEDE55F6240D0DE600D2C773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEDE55F8240D0DE600D2C773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageBorderApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4X6PHGF7Z3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ImageBorderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.effectivecode.ImageBorderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEDE55F9240D0DE600D2C773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageBorderApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4X6PHGF7Z3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ImageBorderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.effectivecode.ImageBorderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEDE55DE240D0DE300D2C773 /* Build configuration list for PBXProject "ImageBorderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDE55F5240D0DE600D2C773 /* Debug */,
+				EEDE55F6240D0DE600D2C773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDE55F7240D0DE600D2C773 /* Build configuration list for PBXNativeTarget "ImageBorderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDE55F8240D0DE600D2C773 /* Debug */,
+				EEDE55F9240D0DE600D2C773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEDE55DB240D0DE300D2C773 /* Project object */;
+}
