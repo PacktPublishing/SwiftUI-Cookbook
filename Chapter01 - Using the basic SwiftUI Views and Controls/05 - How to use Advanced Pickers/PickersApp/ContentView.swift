@@ -48,7 +48,7 @@ struct ContentView: View {
             Section {
                 DatePicker("Please select a date", selection: $gameTime, in: Date()...)
             }
-        }    
+        }
     }
 }
 
