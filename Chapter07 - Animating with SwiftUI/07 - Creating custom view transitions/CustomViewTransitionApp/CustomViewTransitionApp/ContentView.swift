@@ -18,10 +18,7 @@ extension AnyTransition {
             .scale
             .combined(with: .move(edge: .top))
             .combined(with: .opacity)
-        
-        return removal
-        
-//        return .asymmetric(insertion: insertion, removal: removal)
+        return .asymmetric(insertion: insertion, removal: removal)
     }
 }
 extension Image {
