@@ -25,7 +25,7 @@ struct ContentView: View {
         Rhombus()
             .fill(Color.orange)
             .aspectRatio(0.7, contentMode: .fit)
-            .padding([.horizontal], 10)
+            .padding(.horizontal, 10)
     }
 }
 

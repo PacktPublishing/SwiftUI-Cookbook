@@ -211,7 +211,7 @@ struct ContentView: View {
                 .aspectRatio(1, contentMode: .fit)
             Spacer()
         }
-        .padding([.horizontal], 20)
+        .padding(.horizontal, 20)
     }
 }
 

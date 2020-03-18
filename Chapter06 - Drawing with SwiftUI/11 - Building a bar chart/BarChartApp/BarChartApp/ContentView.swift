@@ -108,7 +108,7 @@ struct ContentView: View {
                 
                 BarChartView(dataPoints: dataSet[selectedCity])
                 Spacer()
-            }.padding([.horizontal], 10)
+            }.padding(.horizontal, 10)
         }
     }
 }

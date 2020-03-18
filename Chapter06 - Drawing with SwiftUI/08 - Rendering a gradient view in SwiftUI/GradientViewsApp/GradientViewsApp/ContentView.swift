@@ -81,7 +81,7 @@ struct ContentView: View {
                     Text("Angular").tag(2)
             }
             .pickerStyle(SegmentedPickerStyle())
-            .padding([.horizontal], 32)
+            .padding(.horizontal, 32)
         }
     }
 }
