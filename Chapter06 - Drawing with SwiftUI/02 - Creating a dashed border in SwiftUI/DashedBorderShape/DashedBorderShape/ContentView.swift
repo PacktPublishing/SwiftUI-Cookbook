@@ -15,7 +15,7 @@ struct ContentView: View {
             .aspectRatio(contentMode: .fit)
             .clipShape(Circle())
             .shadow(radius: 10)
-            .padding([.horizontal], 20)
+            .padding(.horizontal, 20)
             .overlay(
                 Circle()
                     .strokeBorder(Color.black,

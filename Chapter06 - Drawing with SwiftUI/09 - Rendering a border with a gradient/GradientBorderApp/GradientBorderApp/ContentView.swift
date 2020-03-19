@@ -97,7 +97,7 @@ struct ContentView: View {
                    in: 0...1,
                    step: 0.01)
         }
-        .padding([.horizontal], 60)
+        .padding(.horizontal, 60)
     }
 }
 

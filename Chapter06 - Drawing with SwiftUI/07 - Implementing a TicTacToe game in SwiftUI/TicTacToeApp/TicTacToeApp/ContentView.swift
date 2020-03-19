@@ -125,7 +125,7 @@ struct Grid: View {
 struct ContentView: View {
     var body: some View {
         Grid()
-            .padding([.horizontal], 20)
+            .padding(.horizontal, 20)
     }
 }
 

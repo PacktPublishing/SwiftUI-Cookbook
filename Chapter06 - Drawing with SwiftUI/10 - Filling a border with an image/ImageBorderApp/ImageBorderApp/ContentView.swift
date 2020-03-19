@@ -16,7 +16,7 @@ struct ContentView: View {
                     lineWidth: 50)
             .aspectRatio(contentMode: .fit)
             .shadow(radius: 10)
-            .padding([.horizontal], 30)
+            .padding(.horizontal, 30)
     }
 }
 

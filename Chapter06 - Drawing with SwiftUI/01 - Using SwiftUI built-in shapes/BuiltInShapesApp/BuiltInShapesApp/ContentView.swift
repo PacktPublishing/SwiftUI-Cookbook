@@ -27,7 +27,7 @@ struct ContentView: View {
             Ellipse()
                 .fill(Color.purple)
         }
-        .padding([.horizontal], 20)
+        .padding(.horizontal, 20)
     }
 }
 

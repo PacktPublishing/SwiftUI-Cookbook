@@ -70,7 +70,7 @@ struct ContentView: View {
             .overlay(Heart()
                 .stroke(Color.orange, lineWidth: 10))
             .aspectRatio(contentMode: .fit)
-            .padding([.horizontal], 20)
+            .padding(.horizontal, 20)
     }
 }
 
