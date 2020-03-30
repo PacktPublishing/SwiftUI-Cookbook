@@ -38,6 +38,6 @@ struct ContentView_Previews: PreviewProvider {
                 .environment(\.sizeCategory, .extraSmall)
             ContentView(articleCell: sampleCell)
             .environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
-        }
+        }.previewLayout(.sizeThatFits)
     }
 }
