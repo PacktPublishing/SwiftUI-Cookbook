@@ -70,7 +70,7 @@ class LocationViewModel: ObservableObject {
     var errorMessage = ""
     
     private let locationManager = LocationManager()
-
+    
     var thereIsAnError: Bool {
         !errorMessage.isEmpty
     }
@@ -125,8 +125,8 @@ class LocationViewModel: ObservableObject {
         locationManager.locationPublisher
             .debounce(for: 0.5, scheduler: RunLoop.main)
             .removeDuplicates(by: lessTheOneMeter)
-                .assign(to: \.currentLocation, on: self)
-        .store(in: &cancellableSet)
+            .assign(to: \.currentLocation, on: self)
+            .store(in: &cancellableSet)
     }
     
     private func lessTheOneMeter(_ lhs: CLLocation?, _ rhs: CLLocation?) -> Bool {
