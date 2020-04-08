@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    var articleCell: ArticleCell  = ArticleCell(imageName: "", title: "", description: "")
+    var articleCell: Article  = Article(imageName: "", title: "", description: "")
     var body: some View {
         HStack{
             Image(articleCell.imageName)

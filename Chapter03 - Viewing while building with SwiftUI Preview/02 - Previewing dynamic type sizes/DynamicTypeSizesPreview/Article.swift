@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct ArticleCell {
+struct Article {
     var imageName:String
     var title:String
     var description:String
 }
 
-let sampleCell = ArticleCell(imageName: "reading", title: "Love reading", description: "Reading is essential to success")
+let sampleCell = Article(imageName: "reading", title: "Love reading", description: "Reading is essential to success")
