@@ -70,7 +70,7 @@ extension XCTestCase {
 }
 
 class GithubUsersAppTests: XCTestCase {
-    let apiURL = URL(string: "https://api.github.com/users")!    
+    let apiURL = URL(string: "https://api.github.com/users")!
     func testUsersCallResult() throws {
         // Arrange
         URLProtocol.registerClass(MockURLProtocol.self)
