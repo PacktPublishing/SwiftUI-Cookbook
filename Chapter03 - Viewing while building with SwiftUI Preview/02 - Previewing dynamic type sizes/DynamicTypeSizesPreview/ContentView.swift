@@ -9,22 +9,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    var articleCell: Article  = Article(imageName: "", title: "", description: "")
     var body: some View {
-        HStack{
-            Image(articleCell.imageName)
-            .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width:150, height:100)
-                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-            VStack {
-                Text(articleCell.title)
-                    .font(.title)
-                Text(articleCell.description)
-                .padding()
-            }
-                
-        }
+        ArticleView(article: sampleArticle2)
     }
 }
 
@@ -33,10 +19,10 @@ struct ContentView_Previews: PreviewProvider {
     
     static var previews: some View {
         Group {
-            ContentView(articleCell: sampleCell)
-            ContentView(articleCell: sampleCell)
+            ContentView()
+            ContentView()
                 .environment(\.sizeCategory, .extraSmall)
-            ContentView(articleCell: sampleCell)
+            ContentView()
             .environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
         }.previewLayout(.sizeThatFits)
     }

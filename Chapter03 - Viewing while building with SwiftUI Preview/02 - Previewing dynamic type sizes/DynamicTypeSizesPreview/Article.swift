@@ -14,4 +14,5 @@ struct Article {
     var description:String
 }
 
-let sampleCell = Article(imageName: "reading", title: "Love reading", description: "Reading is essential to success")
+let sampleArticle1 = Article(imageName: "reading", title: "Love reading", description: "Reading is essential to success")
+let sampleArticle2 = Article(imageName: "naptime", title: "Nyap time", description: "Take naps when tired. Improves performance")
