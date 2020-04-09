@@ -20,12 +20,6 @@ struct ContentView: View {
                     Text("Panama")
                     Text("Anguila")
                 }
-                Section(header: Text("South America")){
-                    Text("Brazil")
-                    Text("Argentina")
-                    Text("Chile")
-                    Text("Colombia")
-                }
                 Section(header: Text("Africa")){
                     Text("Nigeria")
                     Text("Ghana")
@@ -38,20 +32,6 @@ struct ContentView: View {
                     Text("Sweden")
                     Text("Finland")
                     Text("UK")
-                }
-                Section(header: Text("Asia ")){
-                    Text("India")
-                    Text("Japan")
-                    Text("China")
-                    Text("South Korea")
-                    Text("Malaysia")
-                }
-                Section(header: Text("Oceania")){
-                    Text("Australia")
-                    Text("New Zealand")
-                    Text("Fiji")
-                    Text("Vanuatu")
-                    Text("Palau")
                 }
             }
         .listStyle(GroupedListStyle())
