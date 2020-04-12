@@ -14,6 +14,10 @@ struct ContentView: View {
             VStack {
                 NavigationLink(destination: SecondView(someText: "Sample text")){
                     Text("Go to second view")
+                    .foregroundColor(Color.white)
+                    .padding()
+                        .background(Color.black)
+                    .cornerRadius(25)
                 }
             }.navigationBarTitle("Previews", displayMode: .inline)
         }
