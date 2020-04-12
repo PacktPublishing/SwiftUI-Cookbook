@@ -11,11 +11,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
           VStack{
-              Image("friendship")
-              .resizable()
+                Image("friendship")
+                    .resizable()
                   .aspectRatio(contentMode: .fit)
-                  Text("Importance of Friendsip").font(.title)
-                  Text("More info on friendship").padding()
+                Text("Importance of Friendsip").font(.title)
+                Text("Friends helps us deal with stress and make better life choices").multilineTextAlignment(.center).padding()
           }
     }
 }
@@ -31,7 +31,7 @@ struct ContentView_Previews: PreviewProvider {
                 .previewDisplayName("iPhone 8")
             ContentView()
                 .previewLayout(.fixed(width: 568, height: 320))
-            .previewDisplayName("Custom Size to infer landscape mode")
+                .previewDisplayName("Custom Size to infer landscape mode")
         }
     }
 }
