@@ -15,7 +15,6 @@
 		7A0A6F8C24334630000C1D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0A6F8A24334630000C1D90 /* LaunchScreen.storyboard */; };
 		7A0A6F94243347AA000C1D90 /* insectData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A0A6F93243347AA000C1D90 /* insectData.json */; };
 		7A7C6B202443DC8E00D88C2A /* Insect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C6B1F2443DC8E00D88C2A /* Insect.swift */; };
-		7A7C6B222443DD1000D88C2A /* InsectsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C6B212443DD1000D88C2A /* InsectsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		7A0A6F8D24334630000C1D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A0A6F93243347AA000C1D90 /* insectData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = insectData.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		7A7C6B1F2443DC8E00D88C2A /* Insect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insect.swift; sourceTree = "<group>"; };
-		7A7C6B212443DD1000D88C2A /* InsectsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				7A0A6F7F2433462E000C1D90 /* AppDelegate.swift */,
 				7A0A6F812433462E000C1D90 /* SceneDelegate.swift */,
 				7A0A6F832433462E000C1D90 /* ContentView.swift */,
-				7A7C6B212443DD1000D88C2A /* InsectsList.swift */,
 				7A7C6B1F2443DC8E00D88C2A /* Insect.swift */,
 				7A0A6F8524334630000C1D90 /* Assets.xcassets */,
 				7A0A6F8A24334630000C1D90 /* LaunchScreen.storyboard */,
@@ -158,7 +155,6 @@
 			files = (
 				7A0A6F802433462E000C1D90 /* AppDelegate.swift in Sources */,
 				7A7C6B202443DC8E00D88C2A /* Insect.swift in Sources */,
-				7A7C6B222443DD1000D88C2A /* InsectsList.swift in Sources */,
 				7A0A6F822433462E000C1D90 /* SceneDelegate.swift in Sources */,
 				7A0A6F842433462E000C1D90 /* ContentView.swift in Sources */,
 			);
