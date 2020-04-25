@@ -124,12 +124,12 @@ class LocationViewModel: ObservableObject {
         
         locationManager.locationPublisher
             .debounce(for: 0.5, scheduler: RunLoop.main)
-            .removeDuplicates(by: lessTheOneMeter)
+            .removeDuplicates(by: lessThanOneMeter)
             .assign(to: \.currentLocation, on: self)
             .store(in: &cancellableSet)
     }
     
-    private func lessTheOneMeter(_ lhs: CLLocation?, _ rhs: CLLocation?) -> Bool {
+    private func lessThanOneMeter(_ lhs: CLLocation?, _ rhs: CLLocation?) -> Bool {
         if lhs == nil && rhs == nil {
             return true
         }
