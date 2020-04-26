@@ -24,6 +24,7 @@
 		EE53FCFD24548F9B0001C269 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE53FD0024548F9B0001C269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE53FD0224548F9B0001C269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6C82832454AD1500347567 /* SignInWithAppleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignInWithAppleApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		EE53FCF324548F9A0001C269 /* SignInWithAppleApp */ = {
 			isa = PBXGroup;
 			children = (
+				EE6C82832454AD1500347567 /* SignInWithAppleApp.entitlements */,
 				EE53FCF424548F9A0001C269 /* AppDelegate.swift */,
 				EE53FCF624548F9A0001C269 /* SceneDelegate.swift */,
 				EE53FCF824548F9A0001C269 /* ContentView.swift */,
@@ -284,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SignInWithAppleApp/SignInWithAppleApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SignInWithAppleApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 4X6PHGF7Z3;
@@ -304,6 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SignInWithAppleApp/SignInWithAppleApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SignInWithAppleApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 4X6PHGF7Z3;
