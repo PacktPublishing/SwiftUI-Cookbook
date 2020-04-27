@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C2FF1040FAAC993979D2036 /* Pods_FirebaseRemoteConfigApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8EE5E7DBB8C872219E4C14 /* Pods_FirebaseRemoteConfigApp.framework */; };
+		EE6C82B12455F4C700347567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C82B02455F4C700347567 /* AppDelegate.swift */; };
+		EE6C82B32455F4C700347567 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C82B22455F4C700347567 /* SceneDelegate.swift */; };
+		EE6C82B52455F4C700347567 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C82B42455F4C700347567 /* ContentView.swift */; };
+		EE6C82B72455F4C900347567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6C82B62455F4C900347567 /* Assets.xcassets */; };
+		EE6C82BA2455F4C900347567 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6C82B92455F4C900347567 /* Preview Assets.xcassets */; };
+		EE6C82BD2455F4C900347567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6C82BB2455F4C900347567 /* LaunchScreen.storyboard */; };
+		EE6C82C52455F99B00347567 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE6C82C42455F99B00347567 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E660C23DC57ACF999E4D0A8 /* Pods-FirebaseRemoteConfigApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseRemoteConfigApp.release.xcconfig"; path = "Target Support Files/Pods-FirebaseRemoteConfigApp/Pods-FirebaseRemoteConfigApp.release.xcconfig"; sourceTree = "<group>"; };
+		D23164E95E878DC8DCCD37CF /* Pods-FirebaseRemoteConfigApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseRemoteConfigApp.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseRemoteConfigApp/Pods-FirebaseRemoteConfigApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DD8EE5E7DBB8C872219E4C14 /* Pods_FirebaseRemoteConfigApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseRemoteConfigApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6C82AD2455F4C700347567 /* FirebaseRemoteConfigApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseRemoteConfigApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6C82B02455F4C700347567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE6C82B22455F4C700347567 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE6C82B42455F4C700347567 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE6C82B62455F4C900347567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE6C82B92455F4C900347567 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE6C82BC2455F4C900347567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE6C82BE2455F4C900347567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6C82C42455F99B00347567 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE6C82AA2455F4C700347567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2FF1040FAAC993979D2036 /* Pods_FirebaseRemoteConfigApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D2F7F42519FE4855927E38B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D23164E95E878DC8DCCD37CF /* Pods-FirebaseRemoteConfigApp.debug.xcconfig */,
+				5E660C23DC57ACF999E4D0A8 /* Pods-FirebaseRemoteConfigApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE220D3CEFF1723A8A6CF028 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD8EE5E7DBB8C872219E4C14 /* Pods_FirebaseRemoteConfigApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE6C82A42455F4C700347567 = {
+			isa = PBXGroup;
+			children = (
+				EE6C82AF2455F4C700347567 /* FirebaseRemoteConfigApp */,
+				EE6C82AE2455F4C700347567 /* Products */,
+				8D2F7F42519FE4855927E38B /* Pods */,
+				CE220D3CEFF1723A8A6CF028 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE6C82AE2455F4C700347567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE6C82AD2455F4C700347567 /* FirebaseRemoteConfigApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE6C82AF2455F4C700347567 /* FirebaseRemoteConfigApp */ = {
+			isa = PBXGroup;
+			children = (
+				EE6C82C42455F99B00347567 /* GoogleService-Info.plist */,
+				EE6C82B02455F4C700347567 /* AppDelegate.swift */,
+				EE6C82B22455F4C700347567 /* SceneDelegate.swift */,
+				EE6C82B42455F4C700347567 /* ContentView.swift */,
+				EE6C82B62455F4C900347567 /* Assets.xcassets */,
+				EE6C82BB2455F4C900347567 /* LaunchScreen.storyboard */,
+				EE6C82BE2455F4C900347567 /* Info.plist */,
+				EE6C82B82455F4C900347567 /* Preview Content */,
+			);
+			path = FirebaseRemoteConfigApp;
+			sourceTree = "<group>";
+		};
+		EE6C82B82455F4C900347567 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE6C82B92455F4C900347567 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE6C82AC2455F4C700347567 /* FirebaseRemoteConfigApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6C82C12455F4C900347567 /* Build configuration list for PBXNativeTarget "FirebaseRemoteConfigApp" */;
+			buildPhases = (
+				6136656816152823E790CA65 /* [CP] Check Pods Manifest.lock */,
+				EE6C82A92455F4C700347567 /* Sources */,
+				EE6C82AA2455F4C700347567 /* Frameworks */,
+				EE6C82AB2455F4C700347567 /* Resources */,
+				76D18B13463D1B2E4FEB7F95 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseRemoteConfigApp;
+			productName = FirebaseRemoteConfigApp;
+			productReference = EE6C82AD2455F4C700347567 /* FirebaseRemoteConfigApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE6C82A52455F4C700347567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "giordano scalzo";
+				TargetAttributes = {
+					EE6C82AC2455F4C700347567 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EE6C82A82455F4C700347567 /* Build configuration list for PBXProject "FirebaseRemoteConfigApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE6C82A42455F4C700347567;
+			productRefGroup = EE6C82AE2455F4C700347567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE6C82AC2455F4C700347567 /* FirebaseRemoteConfigApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE6C82AB2455F4C700347567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6C82BD2455F4C900347567 /* LaunchScreen.storyboard in Resources */,
+				EE6C82C52455F99B00347567 /* GoogleService-Info.plist in Resources */,
+				EE6C82BA2455F4C900347567 /* Preview Assets.xcassets in Resources */,
+				EE6C82B72455F4C900347567 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6136656816152823E790CA65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseRemoteConfigApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76D18B13463D1B2E4FEB7F95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseRemoteConfigApp/Pods-FirebaseRemoteConfigApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseRemoteConfigApp/Pods-FirebaseRemoteConfigApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseRemoteConfigApp/Pods-FirebaseRemoteConfigApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE6C82A92455F4C700347567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6C82B12455F4C700347567 /* AppDelegate.swift in Sources */,
+				EE6C82B32455F4C700347567 /* SceneDelegate.swift in Sources */,
+				EE6C82B52455F4C700347567 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE6C82BB2455F4C900347567 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6C82BC2455F4C900347567 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE6C82BF2455F4C900347567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE6C82C02455F4C900347567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE6C82C22455F4C900347567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23164E95E878DC8DCCD37CF /* Pods-FirebaseRemoteConfigApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseRemoteConfigApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4X6PHGF7Z3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FirebaseRemoteConfigApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.effectivecode.FirebaseRemoteConfigApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE6C82C32455F4C900347567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E660C23DC57ACF999E4D0A8 /* Pods-FirebaseRemoteConfigApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseRemoteConfigApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4X6PHGF7Z3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FirebaseRemoteConfigApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.effectivecode.FirebaseRemoteConfigApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE6C82A82455F4C700347567 /* Build configuration list for PBXProject "FirebaseRemoteConfigApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6C82BF2455F4C900347567 /* Debug */,
+				EE6C82C02455F4C900347567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6C82C12455F4C900347567 /* Build configuration list for PBXNativeTarget "FirebaseRemoteConfigApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6C82C22455F4C900347567 /* Debug */,
+				EE6C82C32455F4C900347567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE6C82A52455F4C700347567 /* Project object */;
+}

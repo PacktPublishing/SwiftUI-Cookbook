@@ -1,0 +1,6 @@
+framework module Pods_FirebaseRemoteConfigApp {
+  umbrella header "Pods-FirebaseRemoteConfigApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
