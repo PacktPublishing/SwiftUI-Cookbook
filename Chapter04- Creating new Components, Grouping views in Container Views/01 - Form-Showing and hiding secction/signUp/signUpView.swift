@@ -14,40 +14,38 @@ struct signUpView: View {
     @State private var street = ""
     @State private var city = ""
     @State private var zip = ""
-    @State private var yearsLived = false
+    @State private var lessThanTwo = false
     @State private var username = ""
-    @State private var password1 = ""
-    @State private var password2 = ""
+    @State private var password = ""
     var body: some View {
         NavigationView{
             Form{
-                Section{
+                Section(header: Text("Names")){
                     TextField("First Name", text: $fname)
                     TextField("Last Name" , text: $lname)
                 }
-                Section{
+                Section(header:Text("Current Address")){
                     TextField("Street Address" , text: $street)
                     TextField("City" , text: $city)
                     TextField("Zip" , text: $zip)
-                    Toggle(isOn: $yearsLived){
+                    Toggle(isOn: $lessThanTwo){
                         Text("Have you lived here for 2+ years")
                     }
                 }
-                if !yearsLived{
-                    Section{
+                if !lessThanTwo{
+                    Section(header:Text("Previous Address")){
                         TextField("Street Address" , text: $street)
                         TextField("City" , text: $city)
                         TextField("Zip" , text: $zip)
                     }
                 }
-                Section {
+                Section() {
                     TextField("Create Username" , text: $username)
-                    SecureField("Password", text: $password1)
-                    SecureField("Re-enter Password", text: $password2)
+                    SecureField("Password", text: $password)
                 }
                 
                 Button(action: {
-                    ///
+                    print("Form submit action here")
                 }){
                     Text("Submit")
                   
