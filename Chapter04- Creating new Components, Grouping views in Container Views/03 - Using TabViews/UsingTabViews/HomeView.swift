@@ -8,6 +8,7 @@
 
 import SwiftUI
 let games = ["Doom", "Final F","Cyberpunk", "avengers", "animal trivia", "sudoku", "snakes and ladders", "Power rangers", "ultimate frisbee", "football", "soccer", "much more"]
+
 struct HomeView: View {
     var body: some View {
         NavigationView{
