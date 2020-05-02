@@ -1,0 +1,72 @@
+//
+//  ContentView.swift
+//  FirebaseNotesApp
+//
+//  Created by giordano scalzo on 02/05/2020.
+//  Copyright © 2020 giordano scalzo. All rights reserved.
+//
+
+import SwiftUI
+
+struct Note: Identifiable {
+    let id: String
+    let title: String
+    let date: Date
+    let body: String
+}
+
+struct ContentView: View {
+    static let taskDateFormat: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .long
+        return formatter
+    }()
+
+    @ObservedObject
+    var repository: NotesRepository = NotesRepository()
+
+    @State
+    var isNewNotePresented = false
+
+    var body: some View {
+
+        NavigationView {
+            List {
+                ForEach(repository.notes) { note in
+                    NavigationLink(destination: ShowNote(note: note)) {
+                        VStack(alignment: .leading) {
+                            Text(note.title)
+                                .font(.headline)
+                                .fontWeight(.bold)
+                            Text("\(note.date, formatter: Self.taskDateFormat)")
+                                .font(.subheadline)
+                        }
+                    }
+                }
+                .onDelete{ indexSet in
+                    if let index = indexSet.first {
+                        self.repository.remove(at: index)
+                    }
+                }
+            }
+            .navigationBarTitle("FireNotes", displayMode: .inline)
+            .navigationBarItems(trailing:
+                Button(action: {
+                    self.isNewNotePresented.toggle()
+                }) {
+                    Image(systemName: "plus")
+                        .font(.headline)
+                }
+            ).sheet(isPresented: $isNewNotePresented) {
+                NewNote(isNewNotePresented: self.$isNewNotePresented,
+                        repository: self.repository)
+            }
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
