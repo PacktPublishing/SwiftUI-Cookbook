@@ -1,0 +1,6 @@
+target 'FirebaseNotesApp' do
+  use_frameworks!
+
+  pod 'Firebase/Firestore'
+  pod 'FirebaseFirestoreSwift'
+end
