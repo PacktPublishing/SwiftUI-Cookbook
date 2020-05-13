@@ -10,7 +10,6 @@ import SwiftUI
 
 struct ContentView: View {
     @FetchRequest(
-        entity: Contact.entity(),
         sortDescriptors: [
             NSSortDescriptor(keyPath: \Contact.lastName, ascending: true),
             NSSortDescriptor(keyPath: \Contact.firstName, ascending: true),
