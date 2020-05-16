@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE702449246F14EA00C0AAF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE702448246F14EA00C0AAF2 /* AppDelegate.swift */; };
-		EE70244B246F14EA00C0AAF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE70244A246F14EA00C0AAF2 /* SceneDelegate.swift */; };
-		EE70244E246F14EA00C0AAF2 /* FilterContactsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE70244C246F14EA00C0AAF2 /* FilterContactsApp.xcdatamodeld */; };
-		EE702450246F14EA00C0AAF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE70244F246F14EA00C0AAF2 /* ContentView.swift */; };
-		EE702452246F14F000C0AAF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE702451246F14F000C0AAF2 /* Assets.xcassets */; };
-		EE702455246F14F000C0AAF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE702454246F14F000C0AAF2 /* Preview Assets.xcassets */; };
-		EE702458246F14F000C0AAF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE702456246F14F000C0AAF2 /* LaunchScreen.storyboard */; };
-		EE702460246FCEB500C0AAF2 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE70245F246FCEB500C0AAF2 /* Contacts.swift */; };
+		EE70246E246FEE0F00C0AAF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE70246D246FEE0F00C0AAF2 /* AppDelegate.swift */; };
+		EE702470246FEE0F00C0AAF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE70246F246FEE0F00C0AAF2 /* SceneDelegate.swift */; };
+		EE702473246FEE0F00C0AAF2 /* DeleteContactsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE702471246FEE0F00C0AAF2 /* DeleteContactsApp.xcdatamodeld */; };
+		EE702475246FEE0F00C0AAF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE702474246FEE0F00C0AAF2 /* ContentView.swift */; };
+		EE702477246FEE0F00C0AAF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE702476246FEE0F00C0AAF2 /* Assets.xcassets */; };
+		EE70247A246FEE0F00C0AAF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE702479246FEE0F00C0AAF2 /* Preview Assets.xcassets */; };
+		EE70247D246FEE0F00C0AAF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE70247B246FEE0F00C0AAF2 /* LaunchScreen.storyboard */; };
+		EE702485246FF97700C0AAF2 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE702484246FF97700C0AAF2 /* Contacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EE702445246F14EA00C0AAF2 /* FilterContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE702448246F14EA00C0AAF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE70244A246F14EA00C0AAF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE70244D246F14EA00C0AAF2 /* FilterContactsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FilterContactsApp.xcdatamodel; sourceTree = "<group>"; };
-		EE70244F246F14EA00C0AAF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EE702451246F14F000C0AAF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE702454246F14F000C0AAF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EE702457246F14F000C0AAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EE702459246F14F000C0AAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE70245F246FCEB500C0AAF2 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		EE70246A246FEE0F00C0AAF2 /* DeleteContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeleteContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE70246D246FEE0F00C0AAF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE70246F246FEE0F00C0AAF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE702472246FEE0F00C0AAF2 /* DeleteContactsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeleteContactsApp.xcdatamodel; sourceTree = "<group>"; };
+		EE702474246FEE0F00C0AAF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE702476246FEE0F00C0AAF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE702479246FEE0F00C0AAF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE70247C246FEE0F00C0AAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE70247E246FEE0F00C0AAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE702484246FF97700C0AAF2 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EE702442246F14EA00C0AAF2 /* Frameworks */ = {
+		EE702467246FEE0F00C0AAF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,42 +41,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EE70243C246F14EA00C0AAF2 = {
+		EE702461246FEE0F00C0AAF2 = {
 			isa = PBXGroup;
 			children = (
-				EE702447246F14EA00C0AAF2 /* FilterContactsApp */,
-				EE702446246F14EA00C0AAF2 /* Products */,
+				EE70246C246FEE0F00C0AAF2 /* DeleteContactsApp */,
+				EE70246B246FEE0F00C0AAF2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EE702446246F14EA00C0AAF2 /* Products */ = {
+		EE70246B246FEE0F00C0AAF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE702445246F14EA00C0AAF2 /* FilterContactsApp.app */,
+				EE70246A246FEE0F00C0AAF2 /* DeleteContactsApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE702447246F14EA00C0AAF2 /* FilterContactsApp */ = {
+		EE70246C246FEE0F00C0AAF2 /* DeleteContactsApp */ = {
 			isa = PBXGroup;
 			children = (
-				EE702448246F14EA00C0AAF2 /* AppDelegate.swift */,
-				EE70244A246F14EA00C0AAF2 /* SceneDelegate.swift */,
-				EE70245F246FCEB500C0AAF2 /* Contacts.swift */,
-				EE70244F246F14EA00C0AAF2 /* ContentView.swift */,
-				EE70244C246F14EA00C0AAF2 /* FilterContactsApp.xcdatamodeld */,
-				EE702451246F14F000C0AAF2 /* Assets.xcassets */,
-				EE702456246F14F000C0AAF2 /* LaunchScreen.storyboard */,
-				EE702459246F14F000C0AAF2 /* Info.plist */,
-				EE702453246F14F000C0AAF2 /* Preview Content */,
+				EE70246D246FEE0F00C0AAF2 /* AppDelegate.swift */,
+				EE70246F246FEE0F00C0AAF2 /* SceneDelegate.swift */,
+				EE702484246FF97700C0AAF2 /* Contacts.swift */,
+				EE702471246FEE0F00C0AAF2 /* DeleteContactsApp.xcdatamodeld */,
+				EE702474246FEE0F00C0AAF2 /* ContentView.swift */,
+				EE702476246FEE0F00C0AAF2 /* Assets.xcassets */,
+				EE70247B246FEE0F00C0AAF2 /* LaunchScreen.storyboard */,
+				EE70247E246FEE0F00C0AAF2 /* Info.plist */,
+				EE702478246FEE0F00C0AAF2 /* Preview Content */,
 			);
-			path = FilterContactsApp;
+			path = DeleteContactsApp;
 			sourceTree = "<group>";
 		};
-		EE702453246F14F000C0AAF2 /* Preview Content */ = {
+		EE702478246FEE0F00C0AAF2 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				EE702454246F14F000C0AAF2 /* Preview Assets.xcassets */,
+				EE702479246FEE0F00C0AAF2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -84,39 +84,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE702444246F14EA00C0AAF2 /* FilterContactsApp */ = {
+		EE702469246FEE0F00C0AAF2 /* DeleteContactsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE70245C246F14F000C0AAF2 /* Build configuration list for PBXNativeTarget "FilterContactsApp" */;
+			buildConfigurationList = EE702481246FEE0F00C0AAF2 /* Build configuration list for PBXNativeTarget "DeleteContactsApp" */;
 			buildPhases = (
-				EE702441246F14EA00C0AAF2 /* Sources */,
-				EE702442246F14EA00C0AAF2 /* Frameworks */,
-				EE702443246F14EA00C0AAF2 /* Resources */,
+				EE702466246FEE0F00C0AAF2 /* Sources */,
+				EE702467246FEE0F00C0AAF2 /* Frameworks */,
+				EE702468246FEE0F00C0AAF2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FilterContactsApp;
-			productName = FilterContactsApp;
-			productReference = EE702445246F14EA00C0AAF2 /* FilterContactsApp.app */;
+			name = DeleteContactsApp;
+			productName = DeleteContactsApp;
+			productReference = EE70246A246FEE0F00C0AAF2 /* DeleteContactsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EE70243D246F14EA00C0AAF2 /* Project object */ = {
+		EE702462246FEE0F00C0AAF2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "giordano scalzo";
 				TargetAttributes = {
-					EE702444246F14EA00C0AAF2 = {
+					EE702469246FEE0F00C0AAF2 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
-			buildConfigurationList = EE702440246F14EA00C0AAF2 /* Build configuration list for PBXProject "FilterContactsApp" */;
+			buildConfigurationList = EE702465246FEE0F00C0AAF2 /* Build configuration list for PBXProject "DeleteContactsApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,49 +124,49 @@
 				en,
 				Base,
 			);
-			mainGroup = EE70243C246F14EA00C0AAF2;
-			productRefGroup = EE702446246F14EA00C0AAF2 /* Products */;
+			mainGroup = EE702461246FEE0F00C0AAF2;
+			productRefGroup = EE70246B246FEE0F00C0AAF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE702444246F14EA00C0AAF2 /* FilterContactsApp */,
+				EE702469246FEE0F00C0AAF2 /* DeleteContactsApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EE702443246F14EA00C0AAF2 /* Resources */ = {
+		EE702468246FEE0F00C0AAF2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE702458246F14F000C0AAF2 /* LaunchScreen.storyboard in Resources */,
-				EE702455246F14F000C0AAF2 /* Preview Assets.xcassets in Resources */,
-				EE702452246F14F000C0AAF2 /* Assets.xcassets in Resources */,
+				EE70247D246FEE0F00C0AAF2 /* LaunchScreen.storyboard in Resources */,
+				EE70247A246FEE0F00C0AAF2 /* Preview Assets.xcassets in Resources */,
+				EE702477246FEE0F00C0AAF2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EE702441246F14EA00C0AAF2 /* Sources */ = {
+		EE702466246FEE0F00C0AAF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE702449246F14EA00C0AAF2 /* AppDelegate.swift in Sources */,
-				EE70244E246F14EA00C0AAF2 /* FilterContactsApp.xcdatamodeld in Sources */,
-				EE702450246F14EA00C0AAF2 /* ContentView.swift in Sources */,
-				EE70244B246F14EA00C0AAF2 /* SceneDelegate.swift in Sources */,
-				EE702460246FCEB500C0AAF2 /* Contacts.swift in Sources */,
+				EE70246E246FEE0F00C0AAF2 /* AppDelegate.swift in Sources */,
+				EE702470246FEE0F00C0AAF2 /* SceneDelegate.swift in Sources */,
+				EE702475246FEE0F00C0AAF2 /* ContentView.swift in Sources */,
+				EE702473246FEE0F00C0AAF2 /* DeleteContactsApp.xcdatamodeld in Sources */,
+				EE702485246FF97700C0AAF2 /* Contacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EE702456246F14F000C0AAF2 /* LaunchScreen.storyboard */ = {
+		EE70247B246FEE0F00C0AAF2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE702457246F14F000C0AAF2 /* Base */,
+				EE70247C246FEE0F00C0AAF2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EE70245A246F14F000C0AAF2 /* Debug */ = {
+		EE70247F246FEE0F00C0AAF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		EE70245B246F14F000C0AAF2 /* Release */ = {
+		EE702480246FEE0F00C0AAF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,40 +288,40 @@
 			};
 			name = Release;
 		};
-		EE70245D246F14F000C0AAF2 /* Debug */ = {
+		EE702482246FEE0F00C0AAF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FilterContactsApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DeleteContactsApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 4X6PHGF7Z3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FilterContactsApp/Info.plist;
+				INFOPLIST_FILE = DeleteContactsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.effectivecode.FilterContactsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.effectivecode.DeleteContactsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EE70245E246F14F000C0AAF2 /* Release */ = {
+		EE702483246FEE0F00C0AAF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FilterContactsApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DeleteContactsApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 4X6PHGF7Z3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FilterContactsApp/Info.plist;
+				INFOPLIST_FILE = DeleteContactsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.effectivecode.FilterContactsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.effectivecode.DeleteContactsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,20 +331,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE702440246F14EA00C0AAF2 /* Build configuration list for PBXProject "FilterContactsApp" */ = {
+		EE702465246FEE0F00C0AAF2 /* Build configuration list for PBXProject "DeleteContactsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE70245A246F14F000C0AAF2 /* Debug */,
-				EE70245B246F14F000C0AAF2 /* Release */,
+				EE70247F246FEE0F00C0AAF2 /* Debug */,
+				EE702480246FEE0F00C0AAF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE70245C246F14F000C0AAF2 /* Build configuration list for PBXNativeTarget "FilterContactsApp" */ = {
+		EE702481246FEE0F00C0AAF2 /* Build configuration list for PBXNativeTarget "DeleteContactsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE70245D246F14F000C0AAF2 /* Debug */,
-				EE70245E246F14F000C0AAF2 /* Release */,
+				EE702482246FEE0F00C0AAF2 /* Debug */,
+				EE702483246FEE0F00C0AAF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -352,17 +352,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EE70244C246F14EA00C0AAF2 /* FilterContactsApp.xcdatamodeld */ = {
+		EE702471246FEE0F00C0AAF2 /* DeleteContactsApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				EE70244D246F14EA00C0AAF2 /* FilterContactsApp.xcdatamodel */,
+				EE702472246FEE0F00C0AAF2 /* DeleteContactsApp.xcdatamodel */,
 			);
-			currentVersion = EE70244D246F14EA00C0AAF2 /* FilterContactsApp.xcdatamodel */;
-			path = FilterContactsApp.xcdatamodeld;
+			currentVersion = EE702472246FEE0F00C0AAF2 /* DeleteContactsApp.xcdatamodel */;
+			path = DeleteContactsApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = EE70243D246F14EA00C0AAF2 /* Project object */;
+	rootObject = EE702462246FEE0F00C0AAF2 /* Project object */;
 }
