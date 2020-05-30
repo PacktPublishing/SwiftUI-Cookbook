@@ -11,13 +11,16 @@ import SwiftUI
 struct ContentView: View {
     @State private var showPopover = false
     var body: some View {
-        Button("Show popover") {
+        Button(action: {
             self.showPopover = true
+        }){
+            Text("Show popover").font(.system(size: 40))
         }.popover(
             isPresented: self.$showPopover,
             arrowEdge: .bottom
         ) {
             Text("Popover content displayed here")
+            .font(.system(size: 40))
         }
     }
 }
