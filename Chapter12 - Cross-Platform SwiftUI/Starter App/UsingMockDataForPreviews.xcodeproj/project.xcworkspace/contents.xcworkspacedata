@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/nzokwe/Projects/Packt/SwiftUI-Cookbook/Chapter12 - Cross-Platform SwiftUI/Starter App/UsingMockDataForPreviews.xcodeproj">
+      location = "self:UsingMockDataForPreviews.xcodeproj">
    </FileRef>
 </Workspace>

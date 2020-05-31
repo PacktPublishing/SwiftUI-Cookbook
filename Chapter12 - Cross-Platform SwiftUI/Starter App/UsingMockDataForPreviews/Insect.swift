@@ -1,6 +1,6 @@
 //
 //  Insect.swift
-//  CrossPlatformStarter
+//  UsingMockDataForPreviews
 //
 //  Created by Edgar Nzokwe on 4/12/20.
 //  Copyright © 2020 Edgar Nzokwe. All rights reserved.

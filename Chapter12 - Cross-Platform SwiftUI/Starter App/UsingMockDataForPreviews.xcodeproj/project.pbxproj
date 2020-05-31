@@ -15,11 +15,10 @@
 		7A0A6F8C24334630000C1D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0A6F8A24334630000C1D90 /* LaunchScreen.storyboard */; };
 		7A0A6F94243347AA000C1D90 /* insectData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A0A6F93243347AA000C1D90 /* insectData.json */; };
 		7A7C6B202443DC8E00D88C2A /* Insect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C6B1F2443DC8E00D88C2A /* Insect.swift */; };
-		7AECE24824816C9000FA95B7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AECE24724816C9000FA95B7 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A0A6F7C2433462E000C1D90 /* CrossPlatformStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossPlatformStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0A6F7C2433462E000C1D90 /* UsingMockDataForPreviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingMockDataForPreviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0A6F7F2433462E000C1D90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A0A6F812433462E000C1D90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7A0A6F832433462E000C1D90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,7 +28,6 @@
 		7A0A6F8D24334630000C1D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A0A6F93243347AA000C1D90 /* insectData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = insectData.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		7A7C6B1F2443DC8E00D88C2A /* Insect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insect.swift; sourceTree = "<group>"; };
-		7AECE24724816C9000FA95B7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +52,7 @@
 		7A0A6F7D2433462E000C1D90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A0A6F7C2433462E000C1D90 /* CrossPlatformStarter.app */,
+				7A0A6F7C2433462E000C1D90 /* UsingMockDataForPreviews.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,7 +63,6 @@
 				7A0A6F7F2433462E000C1D90 /* AppDelegate.swift */,
 				7A0A6F812433462E000C1D90 /* SceneDelegate.swift */,
 				7A0A6F832433462E000C1D90 /* ContentView.swift */,
-				7AECE24724816C9000FA95B7 /* DetailView.swift */,
 				7A7C6B1F2443DC8E00D88C2A /* Insect.swift */,
 				7A0A6F8524334630000C1D90 /* Assets.xcassets */,
 				7A0A6F8A24334630000C1D90 /* LaunchScreen.storyboard */,
@@ -87,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A0A6F7B2433462E000C1D90 /* CrossPlatformStarter */ = {
+		7A0A6F7B2433462E000C1D90 /* UsingMockDataForPreviews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A0A6F9024334630000C1D90 /* Build configuration list for PBXNativeTarget "CrossPlatformStarter" */;
+			buildConfigurationList = 7A0A6F9024334630000C1D90 /* Build configuration list for PBXNativeTarget "UsingMockDataForPreviews" */;
 			buildPhases = (
 				7A0A6F782433462E000C1D90 /* Sources */,
 				7A0A6F792433462E000C1D90 /* Frameworks */,
@@ -99,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = CrossPlatformStarter;
+			name = UsingMockDataForPreviews;
 			productName = UsingMockDataForPreviews;
-			productReference = 7A0A6F7C2433462E000C1D90 /* CrossPlatformStarter.app */;
+			productReference = 7A0A6F7C2433462E000C1D90 /* UsingMockDataForPreviews.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A0A6F7B2433462E000C1D90 /* CrossPlatformStarter */,
+				7A0A6F7B2433462E000C1D90 /* UsingMockDataForPreviews */,
 			);
 		};
 /* End PBXProject section */
@@ -159,7 +156,6 @@
 				7A0A6F802433462E000C1D90 /* AppDelegate.swift in Sources */,
 				7A7C6B202443DC8E00D88C2A /* Insect.swift in Sources */,
 				7A0A6F822433462E000C1D90 /* SceneDelegate.swift in Sources */,
-				7AECE24824816C9000FA95B7 /* DetailView.swift in Sources */,
 				7A0A6F842433462E000C1D90 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,8 +301,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Edgar-Nzokwe.-CrossPlatformStarter";
-				PRODUCT_NAME = CrossPlatformStarter;
+				PRODUCT_BUNDLE_IDENTIFIER = "Edgar-Nzokwe.UsingMockDataForPreviews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -325,8 +321,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Edgar-Nzokwe.-CrossPlatformStarter";
-				PRODUCT_NAME = CrossPlatformStarter;
+				PRODUCT_BUNDLE_IDENTIFIER = "Edgar-Nzokwe.UsingMockDataForPreviews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -344,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A0A6F9024334630000C1D90 /* Build configuration list for PBXNativeTarget "CrossPlatformStarter" */ = {
+		7A0A6F9024334630000C1D90 /* Build configuration list for PBXNativeTarget "UsingMockDataForPreviews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A0A6F9124334630000C1D90 /* Debug */,
