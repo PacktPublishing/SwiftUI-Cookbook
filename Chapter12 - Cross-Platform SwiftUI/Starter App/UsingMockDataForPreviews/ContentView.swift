@@ -14,18 +14,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(insects) {insect in
-                    HStack{
-                        Image(insect.imageName)
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .clipShape(Rectangle())
-                            .frame(width:100, height: 80)
-                            
-                        VStack(alignment: .leading){
-                            Text(insect.name).font(.title)
-                            Text(insect.habitat)
-                        }.padding(.vertical)
-                    }
+                    InsectCellView(insect:insect)
                 }
             }.navigationBarTitle("Great Insects")
         }
@@ -48,3 +37,5 @@ struct ContentView_Previews: PreviewProvider {
         return array ??  [testInsect]
     }
 }
+
+
