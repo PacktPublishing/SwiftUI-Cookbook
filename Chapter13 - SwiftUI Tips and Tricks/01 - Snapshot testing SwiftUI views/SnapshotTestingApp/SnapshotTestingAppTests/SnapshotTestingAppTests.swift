@@ -7,28 +7,24 @@
 //
 
 import XCTest
+import SnapshotTesting
+import SwiftUI
 @testable import SnapshotTestingApp
 
-class SnapshotTestingAppTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+extension Snapshotting where Value:View, Format == UIImage {
+    public static func image(
+    on config: ViewImageConfig) -> Snapshotting {
+        Snapshotting<UIViewController, UIImage>.image(on: config).pullback(UIHostingController.init(rootView:))
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
+
+class PointFreeAppTests: XCTestCase {
+    override class func setUp() {
+        diffTool = "ksdiff"
+    }
+    func testContentView() throws {
+        assertSnapshot(matching: ContentView(), as: .image(on: .iPhoneX))
+    }
+}
+
