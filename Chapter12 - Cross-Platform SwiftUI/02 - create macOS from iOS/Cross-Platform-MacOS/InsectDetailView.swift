@@ -1,14 +1,13 @@
 //
-//  DetailView.swift
-//  CrossPlatformStarter
+//  InsectDetailView.swift
+//  Cross-Platform-MacOS
 //
-//  Created by Edgar Nzokwe on 5/29/20.
+//  Created by Edgar Nzokwe on 5/31/20.
 //  Copyright © 2020 Edgar Nzokwe. All rights reserved.
 //
 
 import SwiftUI
-
-struct DetailView: View {
+struct InsectDetailView: View {
     @State var insect:Insect
     var body: some View {
         VStack{
@@ -26,12 +25,12 @@ struct DetailView: View {
             Text(insect.description)
             
             
-        }
+        }.frame(maxWidth: 700)
     }
 }
 
-struct DetailView_Previews: PreviewProvider {
+struct InsectDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView(insect: testInsect)
+        InsectDetailView(insect: testInsect)
     }
 }

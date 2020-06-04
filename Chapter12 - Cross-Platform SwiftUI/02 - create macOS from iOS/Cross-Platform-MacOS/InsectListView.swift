@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  InsectListView.swift
 //  Cross-Platform-MacOS
 //
 //  Created by Edgar Nzokwe on 5/31/20.
@@ -8,32 +8,26 @@
 
 import SwiftUI
 
-struct ContentView: View {
-   @State private var selectedInsect: Insect?
+struct InsectListView: View {
+    @Binding var selectedInsect:Insect?
     @State var insects:[Insect] = []
-
     var body: some View {
-        NavigationView{
+        
             VStack {
                 List(selection:$selectedInsect) {
                         ForEach(insects) {insect in
                             InsectCellView(insect:insect)
                         }
                 }.listStyle(SidebarListStyle())
-                
             }.frame(minWidth:225, maxWidth: 300)
-            if selectedInsect != nil {
-                InsectDetailView(insect: selectedInsect ?? testInsect)
-                    
-            }
-        }.frame(minWidth: 700, minHeight: 300)
+            
+        
     }
 }
 
-
-struct ContentView_Previews: PreviewProvider {
+struct InsectListView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(insects: Self.testInsects)
+        InsectListView(selectedInsect: .constant(Self.testInsects[0]), insects: Self.testInsects)
     }
     static var testInsects : [Insect]{
         guard let url = Bundle.main.url(forResource: "insectData", withExtension: "json"),

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  CrossPlatformStarter
+//  UsingMockDataForPreviews
 //
 //  Created by Edgar Nzokwe on 3/31/20.
 //  Copyright © 2020 Edgar Nzokwe. All rights reserved.

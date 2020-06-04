@@ -14,12 +14,23 @@
 		7A0A6F8924334630000C1D90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0A6F8824334630000C1D90 /* Preview Assets.xcassets */; };
 		7A0A6F8C24334630000C1D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0A6F8A24334630000C1D90 /* LaunchScreen.storyboard */; };
 		7A0A6F94243347AA000C1D90 /* insectData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A0A6F93243347AA000C1D90 /* insectData.json */; };
+		7A0ED0592484264A0097D7B8 /* InsectCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0ED0582484264A0097D7B8 /* InsectCellView.swift */; };
+		7A0ED0612484275F0097D7B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0ED0602484275F0097D7B8 /* AppDelegate.swift */; };
+		7A0ED0632484275F0097D7B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0ED0622484275F0097D7B8 /* ContentView.swift */; };
+		7A0ED065248427610097D7B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0ED064248427610097D7B8 /* Assets.xcassets */; };
+		7A0ED068248427610097D7B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0ED067248427610097D7B8 /* Preview Assets.xcassets */; };
+		7A0ED06B248427610097D7B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0ED069248427610097D7B8 /* Main.storyboard */; };
+		7A0ED071248427A30097D7B8 /* insectData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A0A6F93243347AA000C1D90 /* insectData.json */; };
+		7A0ED072248427C30097D7B8 /* Insect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C6B1F2443DC8E00D88C2A /* Insect.swift */; };
+		7A0ED074248429600097D7B8 /* InsectCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0ED073248429600097D7B8 /* InsectCellView.swift */; };
+		7A0ED07A2484556F0097D7B8 /* InsectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0ED0792484556F0097D7B8 /* InsectListView.swift */; };
+		7A0ED07E24845C350097D7B8 /* InsectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0ED07D24845C350097D7B8 /* InsectDetailView.swift */; };
+		7A0ED08024845C7C0097D7B8 /* InsectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0ED07F24845C7C0097D7B8 /* InsectDetailView.swift */; };
 		7A7C6B202443DC8E00D88C2A /* Insect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C6B1F2443DC8E00D88C2A /* Insect.swift */; };
-		7AECE24824816C9000FA95B7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AECE24724816C9000FA95B7 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A0A6F7C2433462E000C1D90 /* CrossPlatformStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossPlatformStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0A6F7C2433462E000C1D90 /* UsingMockDataForPreviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingMockDataForPreviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0A6F7F2433462E000C1D90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A0A6F812433462E000C1D90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7A0A6F832433462E000C1D90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,12 +39,31 @@
 		7A0A6F8B24334630000C1D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A0A6F8D24334630000C1D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A0A6F93243347AA000C1D90 /* insectData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = insectData.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		7A0ED0582484264A0097D7B8 /* InsectCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectCellView.swift; sourceTree = "<group>"; };
+		7A0ED05E2484275F0097D7B8 /* Cross-Platform-MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cross-Platform-MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0ED0602484275F0097D7B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A0ED0622484275F0097D7B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A0ED064248427610097D7B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A0ED067248427610097D7B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A0ED06A248427610097D7B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A0ED06C248427610097D7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0ED06D248427610097D7B8 /* Cross_Platform_MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cross_Platform_MacOS.entitlements; sourceTree = "<group>"; };
+		7A0ED073248429600097D7B8 /* InsectCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectCellView.swift; sourceTree = "<group>"; };
+		7A0ED0792484556F0097D7B8 /* InsectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectListView.swift; sourceTree = "<group>"; };
+		7A0ED07D24845C350097D7B8 /* InsectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectDetailView.swift; sourceTree = "<group>"; };
+		7A0ED07F24845C7C0097D7B8 /* InsectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectDetailView.swift; sourceTree = "<group>"; };
 		7A7C6B1F2443DC8E00D88C2A /* Insect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insect.swift; sourceTree = "<group>"; };
-		7AECE24724816C9000FA95B7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7A0A6F792433462E000C1D90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0ED05B2484275F0097D7B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				7A0A6F7E2433462E000C1D90 /* UsingMockDataForPreviews */,
+				7A0ED05F2484275F0097D7B8 /* Cross-Platform-MacOS */,
 				7A0A6F7D2433462E000C1D90 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,7 +85,8 @@
 		7A0A6F7D2433462E000C1D90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A0A6F7C2433462E000C1D90 /* CrossPlatformStarter.app */,
+				7A0A6F7C2433462E000C1D90 /* UsingMockDataForPreviews.app */,
+				7A0ED05E2484275F0097D7B8 /* Cross-Platform-MacOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,7 +97,8 @@
 				7A0A6F7F2433462E000C1D90 /* AppDelegate.swift */,
 				7A0A6F812433462E000C1D90 /* SceneDelegate.swift */,
 				7A0A6F832433462E000C1D90 /* ContentView.swift */,
-				7AECE24724816C9000FA95B7 /* DetailView.swift */,
+				7A0ED07D24845C350097D7B8 /* InsectDetailView.swift */,
+				7A0ED0582484264A0097D7B8 /* InsectCellView.swift */,
 				7A7C6B1F2443DC8E00D88C2A /* Insect.swift */,
 				7A0A6F8524334630000C1D90 /* Assets.xcassets */,
 				7A0A6F8A24334630000C1D90 /* LaunchScreen.storyboard */,
@@ -84,12 +117,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7A0ED05F2484275F0097D7B8 /* Cross-Platform-MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				7A0ED0602484275F0097D7B8 /* AppDelegate.swift */,
+				7A0ED07F24845C7C0097D7B8 /* InsectDetailView.swift */,
+				7A0ED073248429600097D7B8 /* InsectCellView.swift */,
+				7A0ED0792484556F0097D7B8 /* InsectListView.swift */,
+				7A0ED0622484275F0097D7B8 /* ContentView.swift */,
+				7A0ED064248427610097D7B8 /* Assets.xcassets */,
+				7A0ED069248427610097D7B8 /* Main.storyboard */,
+				7A0ED06C248427610097D7B8 /* Info.plist */,
+				7A0ED06D248427610097D7B8 /* Cross_Platform_MacOS.entitlements */,
+				7A0ED066248427610097D7B8 /* Preview Content */,
+			);
+			path = "Cross-Platform-MacOS";
+			sourceTree = "<group>";
+		};
+		7A0ED066248427610097D7B8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A0ED067248427610097D7B8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A0A6F7B2433462E000C1D90 /* CrossPlatformStarter */ = {
+		7A0A6F7B2433462E000C1D90 /* UsingMockDataForPreviews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A0A6F9024334630000C1D90 /* Build configuration list for PBXNativeTarget "CrossPlatformStarter" */;
+			buildConfigurationList = 7A0A6F9024334630000C1D90 /* Build configuration list for PBXNativeTarget "UsingMockDataForPreviews" */;
 			buildPhases = (
 				7A0A6F782433462E000C1D90 /* Sources */,
 				7A0A6F792433462E000C1D90 /* Frameworks */,
@@ -99,9 +157,26 @@
 			);
 			dependencies = (
 			);
-			name = CrossPlatformStarter;
+			name = UsingMockDataForPreviews;
 			productName = UsingMockDataForPreviews;
-			productReference = 7A0A6F7C2433462E000C1D90 /* CrossPlatformStarter.app */;
+			productReference = 7A0A6F7C2433462E000C1D90 /* UsingMockDataForPreviews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A0ED05D2484275F0097D7B8 /* Cross-Platform-MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0ED070248427610097D7B8 /* Build configuration list for PBXNativeTarget "Cross-Platform-MacOS" */;
+			buildPhases = (
+				7A0ED05A2484275F0097D7B8 /* Sources */,
+				7A0ED05B2484275F0097D7B8 /* Frameworks */,
+				7A0ED05C2484275F0097D7B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cross-Platform-MacOS";
+			productName = "Cross-Platform-MacOS";
+			productReference = 7A0ED05E2484275F0097D7B8 /* Cross-Platform-MacOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,6 +190,9 @@
 				ORGANIZATIONNAME = "Edgar Nzokwe";
 				TargetAttributes = {
 					7A0A6F7B2433462E000C1D90 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					7A0ED05D2484275F0097D7B8 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
@@ -132,7 +210,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A0A6F7B2433462E000C1D90 /* CrossPlatformStarter */,
+				7A0A6F7B2433462E000C1D90 /* UsingMockDataForPreviews */,
+				7A0ED05D2484275F0097D7B8 /* Cross-Platform-MacOS */,
 			);
 		};
 /* End PBXProject section */
@@ -149,6 +228,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7A0ED05C2484275F0097D7B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0ED06B248427610097D7B8 /* Main.storyboard in Resources */,
+				7A0ED068248427610097D7B8 /* Preview Assets.xcassets in Resources */,
+				7A0ED065248427610097D7B8 /* Assets.xcassets in Resources */,
+				7A0ED071248427A30097D7B8 /* insectData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -157,10 +247,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A0A6F802433462E000C1D90 /* AppDelegate.swift in Sources */,
+				7A0ED07E24845C350097D7B8 /* InsectDetailView.swift in Sources */,
 				7A7C6B202443DC8E00D88C2A /* Insect.swift in Sources */,
+				7A0ED0592484264A0097D7B8 /* InsectCellView.swift in Sources */,
 				7A0A6F822433462E000C1D90 /* SceneDelegate.swift in Sources */,
-				7AECE24824816C9000FA95B7 /* DetailView.swift in Sources */,
 				7A0A6F842433462E000C1D90 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0ED05A2484275F0097D7B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0ED074248429600097D7B8 /* InsectCellView.swift in Sources */,
+				7A0ED08024845C7C0097D7B8 /* InsectDetailView.swift in Sources */,
+				7A0ED0632484275F0097D7B8 /* ContentView.swift in Sources */,
+				7A0ED072248427C30097D7B8 /* Insect.swift in Sources */,
+				7A0ED07A2484556F0097D7B8 /* InsectListView.swift in Sources */,
+				7A0ED0612484275F0097D7B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +277,14 @@
 				7A0A6F8B24334630000C1D90 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7A0ED069248427610097D7B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A0ED06A248427610097D7B8 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -305,8 +417,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Edgar-Nzokwe.-CrossPlatformStarter";
-				PRODUCT_NAME = CrossPlatformStarter;
+				PRODUCT_BUNDLE_IDENTIFIER = "Edgar-Nzokwe.UsingMockDataForPreviews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -325,10 +437,58 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Edgar-Nzokwe.-CrossPlatformStarter";
-				PRODUCT_NAME = CrossPlatformStarter;
+				PRODUCT_BUNDLE_IDENTIFIER = "Edgar-Nzokwe.UsingMockDataForPreviews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A0ED06E248427610097D7B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Cross-Platform-MacOS/Cross_Platform_MacOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Cross-Platform-MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = VTCMU55NAJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Cross-Platform-MacOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Edgar-Nzokwe.Cross-Platform-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7A0ED06F248427610097D7B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Cross-Platform-MacOS/Cross_Platform_MacOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Cross-Platform-MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = VTCMU55NAJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Cross-Platform-MacOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Edgar-Nzokwe.Cross-Platform-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -344,11 +504,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A0A6F9024334630000C1D90 /* Build configuration list for PBXNativeTarget "CrossPlatformStarter" */ = {
+		7A0A6F9024334630000C1D90 /* Build configuration list for PBXNativeTarget "UsingMockDataForPreviews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A0A6F9124334630000C1D90 /* Debug */,
 				7A0A6F9224334630000C1D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0ED070248427610097D7B8 /* Build configuration list for PBXNativeTarget "Cross-Platform-MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0ED06E248427610097D7B8 /* Debug */,
+				7A0ED06F248427610097D7B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

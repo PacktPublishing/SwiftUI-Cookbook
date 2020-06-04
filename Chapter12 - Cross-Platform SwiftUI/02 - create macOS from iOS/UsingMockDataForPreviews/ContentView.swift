@@ -10,14 +10,11 @@ import SwiftUI
 
 struct ContentView: View {
     var insects:[Insect] = []
-    @State var showDetailSheet = false
     var body: some View {
         NavigationView {
             List {
                 ForEach(insects) {insect in
-                    NavigationLink(destination: DetailView(insect: insect)){
-                        InsectCellView(insect: insect)
-                    }
+                    InsectCellView(insect:insect)
                 }
             }.navigationBarTitle("Great Insects")
         }
@@ -41,21 +38,4 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct InsectCellView: View {
-    @State var insect:Insect
-    var body: some View {
-        HStack{
-            Image(insect.imageName)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .clipShape(Rectangle())
-                .frame(width:100, height: 80)
-            
-            VStack(alignment: .leading){
-                Text(insect.name).font(.title)
-                Text(insect.habitat)
-            }.padding(.vertical)
-                
-        }
-    }
-}
+
