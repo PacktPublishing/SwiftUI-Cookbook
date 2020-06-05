@@ -1,0 +1,16 @@
+"recipe.cover.difficulty.title" = "Difficulté:";
+"recipe.cover.difficulty.value" = "Facile";
+"recipe.cover.name" = "Salad de Riz";
+"recipe.timing.baking.title" = "Cuisson";
+"recipe.timing.baking.value %lld" = "%lld min.";
+"recipe.timing.cooking.title" = "Preparation";
+"recipe.timing.cooking.value %lld" = "%lld min.";
+"recipe.timing.ingredients.ingredient1" = "2 sachets de riz";
+"recipe.timing.ingredients.ingredient2" = "180 maïs";
+"recipe.timing.ingredients.ingredient3" = "1 mozzarella";
+"recipe.timing.ingredients.ingredient4" = "100g tomates";
+"recipe.timing.ingredients.ingredient5" = "100g salade de roquette";
+"recipe.timing.ingredients.servings" = "4 portions";
+"recipe.timing.ingredients.title" = "Ingrédients";
+"recipe.timing.resting.title" = "Repos";
+"recipe.timing.resting.value %lld" = "%lld min.";
