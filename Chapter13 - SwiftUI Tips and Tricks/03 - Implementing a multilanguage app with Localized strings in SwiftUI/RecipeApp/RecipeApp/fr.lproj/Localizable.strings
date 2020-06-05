@@ -1,7 +1,16 @@
-/* 
-  Localizable.strings
-  RecipeApp
-
-  Created by giordano scalzo on 05/06/2020.
-  Copyright © 2020 Giordano Scalzo. All rights reserved.
-*/
+"recipe.cover.difficulty.title" = "Difficulté:";
+"recipe.cover.difficulty.value" = "Facile";
+"recipe.cover.name" = "Salad de Riz";
+"recipe.timings.baking.title" = "Cuisson";
+"recipe.timings.baking.value %lld" = "%lld min.";
+"recipe.timings.cooking.title" = "Preparation";
+"recipe.timings.cooking.value %lld" = "%lld min.";
+"recipe.timings.resting.title" = "Repos";
+"recipe.timings.resting.value %lld" = "%lld min.";
+"recipe.ingredients.ingredient1" = "2 sachets de riz";
+"recipe.ingredients.ingredient2" = "180 maïs";
+"recipe.ingredients.ingredient3" = "1 mozzarella";
+"recipe.ingredients.ingredient4" = "100g tomates";
+"recipe.ingredients.ingredient5" = "100g salade de roquette";
+"recipe.ingredients.servings" = "4 portions";
+"recipe.ingredients.title" = "Ingrédients";

@@ -1,7 +1,16 @@
-/* 
-  Localizable.strings
-  RecipeApp
-
-  Created by giordano scalzo on 05/06/2020.
-  Copyright © 2020 Giordano Scalzo. All rights reserved.
-*/
+"recipe.cover.difficulty.title" = "Difficulty:";
+"recipe.cover.difficulty.value" = "Easy";
+"recipe.cover.name" = "Italian Rice Salad";
+"recipe.timings.baking.title" = "Baking";
+"recipe.timings.baking.value %lld" = "%lld min.";
+"recipe.timings.cooking.title" = "Cooking";
+"recipe.timings.cooking.value %lld" = "%lld min.";
+"recipe.timings.resting.title" = "Resting";
+"recipe.timings.resting.value %lld" = "%lld min.";
+"recipe.ingredients.ingredient1" = "2 bags rice";
+"recipe.ingredients.ingredient2" = "180 sweet corn";
+"recipe.ingredients.ingredient3" = "1 mozzarella";
+"recipe.ingredients.ingredient4" = "100g tomatoes";
+"recipe.ingredients.ingredient5" = "100g rocket salad";
+"recipe.ingredients.servings" = "4 servings";
+"recipe.ingredients.title" = "Ingredients";
