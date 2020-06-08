@@ -7,3 +7,8 @@
 //
 
 import Foundation
+import Combine
+
+final class Insect: ObservableObject {
+    @Published var insects = false
+}
