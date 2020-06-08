@@ -1,0 +1,16 @@
+"recipe.cover.difficulty.title" = "Difficoltà:";
+"recipe.cover.difficulty.value" = "Facile";
+"recipe.cover.name" = "Insalata di riso";
+"recipe.timings.baking.title" = "Cottura";
+"recipe.timings.baking.value %lld" = "%lld min.";
+"recipe.timings.cooking.title" = "Cucinare";
+"recipe.timings.cooking.value %lld" = "%lld min.";
+"recipe.timings.resting.title" = "Riposo";
+"recipe.timings.resting.value %lld" = "%lld min.";
+"recipe.ingredients.ingredient1" = "2 scatole di riso";
+"recipe.ingredients.ingredient2" = "180 mais dolce";
+"recipe.ingredients.ingredient3" = "1 mozzarella";
+"recipe.ingredients.ingredient4" = "100g pomodori";
+"recipe.ingredients.ingredient5" = "100g rucola";
+"recipe.ingredients.servings" = "4 porzioni";
+"recipe.ingredients.title" = "Ingredienti";
