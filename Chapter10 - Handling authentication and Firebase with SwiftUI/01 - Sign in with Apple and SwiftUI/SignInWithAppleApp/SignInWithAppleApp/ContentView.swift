@@ -81,7 +81,7 @@ struct SignInWithApple: UIViewRepresentable {
             }
 
             // Usually, Keychain is used for saving the credentials, but for  simplicity of this article, we use the UserDefaults.
-            // Please don't doit in your production app!
+            // Please don't do this in your production app!
             UserDefaults.standard.set(credentials.user, forKey: "userId")
             UserDefaults.standard.set(credentials.fullName?.givenName, forKey: "username")
             UserDefaults.standard.set(credentials.email, forKey: "email")
