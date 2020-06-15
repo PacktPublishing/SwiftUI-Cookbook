@@ -30,6 +30,7 @@
 		7AC96AC0248EC7D800C8D1EC /* MacInsectCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC96ABF248EC7D800C8D1EC /* MacInsectCellView.swift */; };
 		7AC96AC2248EC97300C8D1EC /* MacInsectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC96AC1248EC97300C8D1EC /* MacInsectListView.swift */; };
 		7AC96AC4248ECC2100C8D1EC /* MacInsectDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC96AC3248ECC2100C8D1EC /* MacInsectDetail.swift */; };
+		7AC96BA82496E29100C8D1EC /* InsectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC96AA3248EAC6100C8D1EC /* InsectDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -289,6 +290,7 @@
 				7AC96ABD248EBB3100C8D1EC /* Insect.swift in Sources */,
 				7AC96AAC248EB80700C8D1EC /* AppDelegate.swift in Sources */,
 				7AC96AC0248EC7D800C8D1EC /* MacInsectCellView.swift in Sources */,
+				7AC96BA82496E29100C8D1EC /* InsectDetailView.swift in Sources */,
 				7AC96ABE248EBB3100C8D1EC /* InsectData.swift in Sources */,
 				7AC96AC4248ECC2100C8D1EC /* MacInsectDetail.swift in Sources */,
 			);

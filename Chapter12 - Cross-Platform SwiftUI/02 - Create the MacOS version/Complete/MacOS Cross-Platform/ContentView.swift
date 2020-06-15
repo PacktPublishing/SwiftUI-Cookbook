@@ -19,7 +19,7 @@ struct ContentView: View {
             }.frame(minWidth: 290, maxWidth: 350)
             if selectedInsect != nil  {
                 ScrollView{
-                    MacInsectDetail(insect: selectedInsect!)
+                    InsectDetailView(insect: selectedInsect!)
                 }
             
             }

@@ -16,7 +16,7 @@ struct MacInsectListView: View {
             ForEach(insectData.insects){ insect in
                 MacInsectCellView(insect: insect).tag(insect)
             }
-        }
+        }.listStyle(SidebarListStyle())
     }
 }
 

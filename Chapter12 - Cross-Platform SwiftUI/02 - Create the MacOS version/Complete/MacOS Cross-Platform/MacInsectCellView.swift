@@ -1,7 +1,6 @@
-
 //
-//  InsectCellView.swift
-//  Cross-Platform
+//  MacInsectCellView.swift
+//  MacOS Cross-Platform
 //
 //  Created by Edgar Nzokwe on 6/8/20.
 //  Copyright © 2020 Edgar Nzokwe. All rights reserved.
@@ -9,15 +8,16 @@
 
 import SwiftUI
 
-struct InsectCellView: View {
+struct MacInsectCellView: View {
     var insect:Insect
+
     var body: some View {
         HStack{
             Image(insect.imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .clipShape(Rectangle())
-                .frame(width:100, height: 80)
+                .frame(width:160, height: 100)
             
             VStack(alignment: .leading){
                 Text(insect.name).font(.title)
@@ -27,8 +27,8 @@ struct InsectCellView: View {
     }
 }
 
-struct InsectCellView_Previews: PreviewProvider {
+struct MacInsectCellView_Previews: PreviewProvider {
     static var previews: some View {
-        InsectCellView(insect: testInsect)
+        MacInsectCellView(insect: testInsect)
     }
 }

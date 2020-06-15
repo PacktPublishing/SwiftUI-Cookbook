@@ -20,8 +20,8 @@ struct MacInsectListView: View {
     }
 }
 
-//struct MacInsectListView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        MacInsectListView(selectedInsect: .constant(testInsect)).environmentObject(InsectData())
-//    }
-//}
+struct MacInsectListView_Previews: PreviewProvider {
+    static var previews: some View {
+        MacInsectListView(selectedInsect: .constant(testInsect)).environmentObject(InsectData())
+    }
+}
