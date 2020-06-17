@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Insect : Decodable, Identifiable, Hashable{
+struct Insect : Decodable, Identifiable{
     var id: Int
     var imageName:String
     var name:String
@@ -16,4 +16,4 @@ struct Insect : Decodable, Identifiable, Hashable{
     var description:String
 }
 
-let testInsect = Insect(id: 1, imageName: "grasshopper", name: "grass", habitat: "bod", description: "sije")
+let testInsect = Insect(id: 1, imageName: "grasshopper", name: "grass", habitat: "pond", description: "long descripiton here")

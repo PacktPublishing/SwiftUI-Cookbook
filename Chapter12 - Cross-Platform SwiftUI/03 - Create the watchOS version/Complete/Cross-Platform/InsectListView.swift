@@ -12,16 +12,17 @@ struct InsectListView<DetailView: View>: View {
     @EnvironmentObject var insectData: InsectData
     let detailViewProducer: (Insect) -> DetailView
     var body: some View {
-            List{
-                ForEach(insectData.insects){insect in
-                    NavigationLink(
-                    destination: self.detailViewProducer(insect).environmentObject(self.insectData)){
-                        InsectCellView(insect: insect)
-                    }
+        List{
+            ForEach(insectData.insects){insect in
+                NavigationLink(
+                destination: self.detailViewProducer(insect).environmentObject(self.insectData)){
+                    InsectCellView(insect: insect)
                 }
             }
+        }
     }
 }
+
 #if os(watchOS)
 typealias PreviewDetailView = WatchInsectDetailView
 #else

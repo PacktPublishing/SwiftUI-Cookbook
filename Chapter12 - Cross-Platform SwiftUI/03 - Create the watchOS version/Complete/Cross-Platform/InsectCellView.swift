@@ -19,7 +19,7 @@ struct InsectCellView: View {
                 .clipShape(Rectangle())
             
             VStack(alignment: .leading){
-                Text(insect.name)
+                Text(insect.name).font(.title)
                 Text(insect.habitat)
             }.padding(.vertical)
         }

@@ -11,16 +11,14 @@ import SwiftUI
 struct InsectListView: View {
     @EnvironmentObject var insectData: InsectData
     var body: some View {
-        NavigationView {
-            List{
-                ForEach(insectData.insects){insect in
-                    NavigationLink(
-                    destination: InsectDetailView(insect: insect)){
-                        InsectCellView(insect: insect)
-                    }
+        List{
+            ForEach(insectData.insects){insect in
+                NavigationLink(
+                destination: InsectDetailView(insect: insect)){
+                    InsectCellView(insect: insect)
                 }
             }
-        }
+        }.navigationBarTitle("Insects",displayMode: .inline)
     }
 }
 
