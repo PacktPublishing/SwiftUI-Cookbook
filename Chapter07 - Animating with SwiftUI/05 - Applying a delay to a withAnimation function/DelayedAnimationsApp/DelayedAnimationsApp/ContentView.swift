@@ -5,7 +5,7 @@
 //  Created by giordano scalzo on 13/03/2020.
 //  Copyright © 2020 giordano scalzo. All rights reserved.
 //
-
+ANY New way of chaining animations?
 import SwiftUI
 
 struct CustomText: ViewModifier {
@@ -45,13 +45,13 @@ struct ContentView: View {
             Spacer()
             Button(action: {
                 withAnimation(Animation.easeInOut) {
-                    self.hideFirst.toggle()
+                    hideFirst.toggle()
                 }
                 withAnimation(Animation.easeInOut.delay(0.3)) {
-                    self.hideSecond.toggle()
+                    hideSecond.toggle()
                 }
                 withAnimation(Animation.easeInOut.delay(0.6)) {
-                    self.hideThird.toggle()
+                    hideThird.toggle()
                 }
             }) {
                 Text("Animate")

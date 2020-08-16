@@ -52,14 +52,14 @@ struct CardView: View {
             VStack(alignment: .leading, spacing: 20) {
                 Rectangle()
                     .fill(LinearGradient(gradient:
-                        Gradient(colors: [self.user.start, self.user.end]),
+                        Gradient(colors: [user.start, user.end]),
                                          startPoint: .topLeading,
                                          endPoint: .bottomTrailing))
                     .cornerRadius(10)
                     .frame(width: geometry.size.width - 40,
                            height: geometry.size.height * 0.65)
                 
-                Text("\(self.user.firstName) \(self.user.lastName)")
+                Text("\(user.firstName) \(user.lastName)")
                     .font(.title)
                     .bold()
             }
@@ -68,17 +68,17 @@ struct CardView: View {
             .cornerRadius(8)
             .shadow(radius: 5)
             .animation(.spring())
-            .offset(x: self.translation.width, y: 0)
-            .rotationEffect(.degrees(Double(self.translation.width / geometry.size.width) * 20), anchor: .bottom)
+            .offset(x: translation.width, y: 0)
+            .rotationEffect(.degrees(Double(translation.width / geometry.size.width) * 20), anchor: .bottom)
             .gesture(
                 DragGesture()
                     .onChanged {
-                        self.translation = $0.translation
+                        translation = $0.translation
                 }.onEnded {
                     if $0.percentage(in: geometry) > self.threshold {
-                        self.onRemove(self.user)
+                        onRemove(user)
                     } else {
-                        self.translation = .zero
+                        translation = .zero
                     }
                 }
             )
@@ -123,16 +123,16 @@ struct ContentView: View {
     var body: some View {
         GeometryReader { geometry in
             ZStack {
-                ForEach(self.users) { user in
-                    if user.id > self.users.maxId - 4 {
+                ForEach(users) { user in
+                    if user.id > users.maxId - 4 {
                         CardView(user: user, onRemove: { removedUser in
-                            self.users.removeAll { $0.id == removedUser.id }
+                            users.removeAll { $0.id == removedUser.id }
                         })
                             .animation(.spring())
-                            .frame(width: self.users.cardWidth(in: geometry,
+                            .frame(width: users.cardWidth(in: geometry,
                                                                userId: user.id),
                                    height: 400)
-                            .offset(x: 0, y: self.users.cardOffset(userId: user.id))
+                            .offset(x: 0, y: users.cardOffset(userId: user.id))
                     }
                 }
             }

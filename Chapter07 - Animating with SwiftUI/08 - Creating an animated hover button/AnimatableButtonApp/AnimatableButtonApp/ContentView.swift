@@ -36,13 +36,13 @@ struct AnimatableButton: View {
                 .gesture(DragGesture(minimumDistance: 0,
                                      coordinateSpace: .global)
                         .onChanged { dragGesture in
-                            self.isPressed = dragGesture
+                            isPressed = dragGesture
                                 .location.isContained(in: geometry)
                         }
                         .onEnded { dragGesture in
-                            self.isPressed = false
+                            isPressed = false
                             if dragGesture.location.isContained(in: geometry) {
-                                self.action()
+                                action()
                             }
                     }
             )

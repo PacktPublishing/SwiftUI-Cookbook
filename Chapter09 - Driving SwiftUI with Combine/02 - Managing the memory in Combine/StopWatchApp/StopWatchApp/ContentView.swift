@@ -67,38 +67,15 @@ extension CancellableSet {
     
 }
 
-@_functionBuilder
-struct IntBuilder {
-    static func buildBlock(_ values: Int...) -> [Int] {
-        values.map { 2*$0 }
-    }
-}
-
 extension Int {
     var formatted: String {
         String(format: "%02d", self)
     }
 }
-func functionReturningOne() -> Int { 1 }
-func functionReturningTwo() -> Int { 2 }
-func functionReturningThree() -> Int { 3 }
-
-func printDoubleInt(@IntBuilder builder: () -> [Int]) {
-    print(builder())
-}
 
 struct ContentView: View {
     @ObservedObject
     private var timer = StopWatchTimer()
-    init() {
-        printDoubleInt{
-            functionReturningOne()
-            functionReturningTwo()
-            functionReturningThree()
-            4
-            5
-        }
-    }
     
     var body: some View {
         VStack(spacing: 12) {
@@ -117,13 +94,13 @@ struct ContentView: View {
                     .font(.system(size: 80))
                     .frame(width: 100)
             }
-            Button(action: {
+            Button {
                 if self.timer.started {
                     self.timer.stop()
                 } else {
                     self.timer.start()
                 }
-            }) {
+            } label: {
                 Text(timer.started ? "Stop" : "Start")
                     .foregroundColor(.white)
                     .padding(.horizontal, 24)

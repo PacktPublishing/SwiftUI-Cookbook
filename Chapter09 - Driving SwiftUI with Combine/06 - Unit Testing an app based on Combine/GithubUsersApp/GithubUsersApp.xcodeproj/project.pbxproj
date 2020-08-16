@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0E224B24E83AE500564510 /* githubUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = EE0E224A24E83AE500564510 /* githubUsers.json */; };
 		EEA1714D243A49C9009B3455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA1714C243A49C9009B3455 /* AppDelegate.swift */; };
 		EEA1714F243A49CA009B3455 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA1714E243A49CA009B3455 /* SceneDelegate.swift */; };
 		EEA17151243A49CA009B3455 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA17150243A49CA009B3455 /* ContentView.swift */; };
@@ -14,7 +15,6 @@
 		EEA17156243A49CC009B3455 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA17155243A49CC009B3455 /* Preview Assets.xcassets */; };
 		EEA17159243A49CC009B3455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA17157243A49CC009B3455 /* LaunchScreen.storyboard */; };
 		EEA17164243A49CC009B3455 /* GithubUsersAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA17163243A49CC009B3455 /* GithubUsersAppTests.swift */; };
-		EEA1716F243A5224009B3455 /* githubUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = EEA1716E243A5224009B3455 /* githubUsers.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE0E224A24E83AE500564510 /* githubUsers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = githubUsers.json; sourceTree = "<group>"; };
 		EEA17149243A49C9009B3455 /* GithubUsersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubUsersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA1714C243A49C9009B3455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEA1714E243A49CA009B3455 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		EEA1715F243A49CC009B3455 /* GithubUsersAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubUsersAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA17163243A49CC009B3455 /* GithubUsersAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUsersAppTests.swift; sourceTree = "<group>"; };
 		EEA17165243A49CC009B3455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEA1716E243A5224009B3455 /* githubUsers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = githubUsers.json; path = ../../../../Resources/Chapter08/recipe10/githubUsers.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		EEA17162243A49CC009B3455 /* GithubUsersAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				EEA1716E243A5224009B3455 /* githubUsers.json */,
+				EE0E224A24E83AE500564510 /* githubUsers.json */,
 				EEA17163243A49CC009B3455 /* GithubUsersAppTests.swift */,
 				EEA17165243A49CC009B3455 /* Info.plist */,
 			);
@@ -155,7 +155,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "giordano scalzo";
 				TargetAttributes = {
 					EEA17148243A49C9009B3455 = {
@@ -201,7 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA1716F243A5224009B3455 /* githubUsers.json in Resources */,
+				EE0E224B24E83AE500564510 /* githubUsers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +274,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -334,6 +335,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

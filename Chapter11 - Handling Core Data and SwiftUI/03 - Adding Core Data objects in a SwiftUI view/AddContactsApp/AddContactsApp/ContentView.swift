@@ -32,16 +32,16 @@ struct ContentView: View {
             }
             .navigationBarTitle("Contacts", displayMode: .inline)
             .navigationBarItems(trailing:
-                Button(action: {
-                    self.isAddContactPresented.toggle()
-                }) {
+                Button {
+                    isAddContactPresented.toggle()
+                } label: {
                     Image(systemName: "plus")
                         .font(.headline)
             })
                 .sheet(isPresented: $isAddContactPresented) {
-                    AddNewContact(isAddContactPresented:                                    self.$isAddContactPresented)
+                    AddNewContact(isAddContactPresented:                                    $isAddContactPresented)
                         .environment(\.managedObjectContext,
-                                     self.managedObjectContext)
+                                     managedObjectContext)
             }
         }
     }

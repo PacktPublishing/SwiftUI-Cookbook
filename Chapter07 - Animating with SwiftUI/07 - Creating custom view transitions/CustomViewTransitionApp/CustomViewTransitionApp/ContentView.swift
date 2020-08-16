@@ -58,7 +58,7 @@ struct ContentView: View {
                     .transition(.moveScaleAndFade)
             }
             Button(action: {
-                self.showFirst.toggle()
+                showFirst.toggle()
             }) {
                 Text("Change")
             }

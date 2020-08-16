@@ -9,27 +9,9 @@
 import SwiftUI
 import Combine
 
-struct Spinner: UIViewRepresentable {
-    @Binding
-    var isAnimating: Bool
-    let style: UIActivityIndicatorView.Style
-    
-    func makeUIView(context: UIViewRepresentableContext<Spinner>)
-        -> UIActivityIndicatorView {
-            return UIActivityIndicatorView(style: style)
-    }
-    
-    func updateUIView(_ uiView: UIActivityIndicatorView,
-                      context: UIViewRepresentableContext<Spinner>) {
-        isAnimating ? uiView.startAnimating() : uiView.stopAnimating()
-    }
-}
-
 struct AsyncImage: View {
     @ObservedObject
     private var fetcher: ImageFetcher
-    private let spinner = Spinner(isAnimating: .constant(true),
-                                  style: .large)
     
     init(url: URL) {
         fetcher = ImageFetcher(url: url)
@@ -43,11 +25,11 @@ struct AsyncImage: View {
     
     private var image: some View {
         Group {
-            if fetcher.image != nil {
-                Image(uiImage: fetcher.image!)
+            if let image = fetcher.image {
+                Image(uiImage: image)
                     .resizable()
             } else {
-                spinner
+                ProgressView()
             }
         }
         .frame(minWidth: 0, maxWidth: .infinity,

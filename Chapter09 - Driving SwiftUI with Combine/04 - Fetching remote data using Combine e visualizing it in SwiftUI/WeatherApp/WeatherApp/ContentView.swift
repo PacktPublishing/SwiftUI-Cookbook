@@ -166,28 +166,26 @@ struct ContentView: View {
         VStack {
             Text(weatherService.errorMessage)
                 .font(.largeTitle)
-            Group {
-                if weatherService.current != nil {
-                    VStack {
-                        CurrentWeather(current: weatherService.current!)
-                        List {
-                            ForEach(weatherService.forecast) {
-                                WeatherRow(weather: $0)
-                            }
+            if weatherService.current != nil {
+                VStack {
+                    CurrentWeather(current: weatherService.current!)
+                    List {
+                        ForEach(weatherService.forecast) {
+                            WeatherRow(weather: $0)
                         }
                     }
-                } else {
-                    Button(action: {
-                        self.weatherService.load(latitude: 51.5074,
-                                                 longitude: 0.1278)
-                    }) {
-                        Text("Refresh Weather")
-                            .foregroundColor(.white)
-                            .padding(.horizontal, 24)
-                            .padding(.vertical, 16)
-                            .background(Color.green)
-                            .cornerRadius(5)
-                    }
+                }
+            } else {
+                Button {
+                    weatherService.load(latitude: 51.5074,
+                                        longitude: 0.1278)
+                } label: {
+                    Text("Refresh Weather")
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 24)
+                        .padding(.vertical, 16)
+                        .background(Color.green)
+                        .cornerRadius(5)
                 }
             }
         }

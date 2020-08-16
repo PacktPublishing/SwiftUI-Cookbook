@@ -31,7 +31,7 @@ struct GoogleLogin: UIViewRepresentable {
     }
 
     func makeCoordinator() -> Coordinator {
-        return Coordinator(self)
+        Coordinator(self)
     }
 
     class Coordinator: NSObject, GIDSignInDelegate {
@@ -80,7 +80,7 @@ struct GoogleLogout: UIViewRepresentable {
     }
 
     func makeCoordinator() -> Coordinator {
-        return Coordinator(self)
+        Coordinator(self)
     }
 
     class Coordinator: NSObject, GIDSignInDelegate {
@@ -99,7 +99,7 @@ struct GoogleLogout: UIViewRepresentable {
         }
 
         func sign(_ signIn: GIDSignIn!, didDisconnectWith user: GIDGoogleUser!, withError error: Error!) {
-            self.parent.signedIn = false
+            parent.signedIn = false
         }
     }
 }

@@ -178,9 +178,9 @@ struct ContentView: View {
             .padding(.horizontal, 24)
             
             if locationViewModel.isStartable {
-                Button(action: {
-                    self.locationViewModel.startUpdating()
-                }) {
+                Button {
+                    locationViewModel.startUpdating()
+                } label: {
                     Text("Start location updating")
                         .foregroundColor(.white)
                         .padding(.horizontal, 24)

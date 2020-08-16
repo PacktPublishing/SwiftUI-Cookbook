@@ -88,7 +88,7 @@ struct SongView: View {
             }
             Spacer()
             Button(action: {
-                self.musicPlayer.pressButton(song: self.song)
+                musicPlayer.pressButton(song: song)
             }) {
                 musicPlayer.buttonImage(for: song)
             }
@@ -112,7 +112,7 @@ struct PlayerView: View {
                 Text(song.artist).italic()
             }
             Button(action: {
-                self.musicPlayer.pressButton(song: self.song)
+                musicPlayer.pressButton(song: song)
             }) {
                 musicPlayer.buttonImage(for: song)
             }

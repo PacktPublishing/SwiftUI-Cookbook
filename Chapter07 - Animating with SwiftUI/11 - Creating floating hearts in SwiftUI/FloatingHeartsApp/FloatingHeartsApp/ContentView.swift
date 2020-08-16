@@ -55,7 +55,7 @@ extension Color {
         self.init(red: r/255, green: g/255, blue: b/255)
     }
     static func random() -> Color {
-        return Color(r: Double.random(in: 100...144),
+        Color(r: Double.random(in: 100...144),
                      g: Double.random(in: 10...200),
                      b: Double.random(in: 200...244))
     }
@@ -78,9 +78,9 @@ struct Heart: View, Identifiable {
             .modifier(MoveShakeScale(pct: toAnimate ? 1 : 0))
             .animation(Animation.easeIn(duration: 5.0))
             .onAppear {
-                self.toAnimate.toggle()
+                toAnimate.toggle()
                 withAnimation(.easeIn(duration: 5)) {
-                    self.opacity = 0
+                    opacity = 0
                 }
         }
     }
@@ -129,9 +129,9 @@ struct ContentView: View {
             VStack {
                 Spacer()
                 HStack {
-                    Button(action: {
-                        self.hearts.new()
-                    }) {
+                    Button {
+                        hearts.new()
+                    } label: {
                         Image(systemName: "heart")
                             .font(.title)
                             .frame(width: 80, height: 80)

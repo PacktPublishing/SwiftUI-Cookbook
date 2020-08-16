@@ -36,7 +36,7 @@ struct LottieAnimation: UIViewRepresentable {
         guard isToPlay else { return }
         
         animationView.play { _ in
-            self.isToPlay = false
+            isToPlay = false
         }
     }
 }
@@ -54,9 +54,9 @@ struct ContentView: View {
                 LottieAnimation(animationName: "filling-heart",
                                 isToPlay: $isToPlay)
                     .frame(width: 200, height: 200)
-                Button(action: {
-                    self.isToPlay = true
-                }) {
+                Button {
+                    isToPlay = true
+                } label: {
                     Text("Fill me!")
                         .fontWeight(.heavy)
                         .padding(15)
