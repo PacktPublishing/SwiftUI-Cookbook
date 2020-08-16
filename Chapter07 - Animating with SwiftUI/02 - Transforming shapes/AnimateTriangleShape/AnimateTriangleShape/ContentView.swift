@@ -39,7 +39,7 @@ struct ContentView: View {
             .frame(width: 300, height: 300)
             .onTapGesture {
                 withAnimation(.easeOut(duration: 2)) {
-                    self.multiplier = CGFloat
+                    multiplier = CGFloat
                         .random(in: 0.3...1.5)
                 }
         }

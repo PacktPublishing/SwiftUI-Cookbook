@@ -57,26 +57,26 @@ struct ContentView: View {
     
     var body: some View {
         VStack(spacing: 24) {
-            Button(action: {
-                self.reactiveObject.handleEvents()
-            }) {
+            Button {
+                reactiveObject.handleEvents()
+            } label: {
                 Text("HandleEvents")
                     .foregroundColor(.white)
                     .frame(width: 200, height: 50)
                     .background(Color.green)
             }
-            Button(action: {
-                self.reactiveObject.printDebug()
-            }) {
+            Button {
+                reactiveObject.printDebug()
+            } label: {
                 Text("Print")
                     .foregroundColor(.white)
                     .frame(width: 200, height: 50)
                     .background(Color.orange)
             }
             
-            Button(action: {
-                self.reactiveObject.breakPoint()
-            }) {
+            Button {
+                reactiveObject.breakPoint()
+            } label: {
                 Text("Breakpoint")
                     .foregroundColor(.white)
                     .frame(width: 200, height: 50)

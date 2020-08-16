@@ -31,11 +31,11 @@ struct InputTodoView: View {
                 .textFieldStyle(CustomTextFieldStyle())
             Spacer()
             Button(action: {
-                guard !self.newTodoDescription.isEmpty else {
+                guard !newTodoDescription.isEmpty else {
                     return
                 }
-                self.todos.append(Todo(description: self.newTodoDescription, done: false))
-                self.newTodoDescription = ""
+                todos.append(Todo(description: newTodoDescription, done: false))
+                newTodoDescription = ""
             }) {
                 Text("Add")
                     .padding(.horizontal, 16)
@@ -93,11 +93,11 @@ struct ContentView: View {
                         }
                         .contentShape(Rectangle())
                         .onTapGesture {
-                            self.todos.toggleDone(to: todo)
+                            todos.toggleDone(to: todo)
                         }
                     }
                 }.navigationBarTitle("TODOs")
-                InputTodoView(todos: self.$todos)
+                InputTodoView(todos: $todos)
             }
             .edgesIgnoringSafeArea(.bottom)
         }

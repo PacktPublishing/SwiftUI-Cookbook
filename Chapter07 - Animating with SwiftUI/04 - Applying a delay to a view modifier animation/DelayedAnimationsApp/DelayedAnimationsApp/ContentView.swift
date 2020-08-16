@@ -35,7 +35,7 @@ struct ContentView: View {
                 .frame(width: 200, height: 200)
             
             Button(action: {
-                self.change.toggle()
+                change.toggle()
             }) {
                 Text("Animate")
                     .fontWeight(.heavy)

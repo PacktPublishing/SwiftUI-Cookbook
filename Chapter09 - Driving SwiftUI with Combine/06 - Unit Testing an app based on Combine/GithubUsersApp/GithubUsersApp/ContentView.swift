@@ -33,16 +33,16 @@ class Github: ObservableObject {
             .map(\.data)
             .decode(type: [GithubUser].self, decoder: decoder)
             .receive(on: RunLoop.main)
-            .sink(receiveCompletion: { completion in
+            .sink { completion in
                 switch completion {
                 case .finished:
                     break
                 case .failure(let error):
                     self.message = error.localizedDescription
                 }
-            }, receiveValue: {
+            } receiveValue: {
                 self.users = $0
-            })
+            }
             .store(in: &cancellableSet)
     }
 }
@@ -52,23 +52,21 @@ struct ContentView: View {
     private var github = Github()
     
     var body: some View {
-        Group {
-            if !github.users.isEmpty {
-                List {
-                    ForEach(github.users) { user in
-                        GithubUserView(user: user)
-                    }
+        if !github.users.isEmpty {
+            List {
+                ForEach(github.users) { user in
+                    GithubUserView(user: user)
                 }
-                .padding(.horizontal)
-            } else {
-                Button(action: {
-                    self.github.load()
-                }) {
-                    Text("Load users")
-                        .foregroundColor(.white)
-                        .frame(width: 120, height: 50)
-                        .background(Color.green)
-                }
+            }
+            .padding(.horizontal)
+        } else {
+            Button {
+                github.load()
+            } label: {
+                Text("Load users")
+                    .foregroundColor(.white)
+                    .frame(width: 120, height: 50)
+                    .background(Color.green)
             }
         }
     }

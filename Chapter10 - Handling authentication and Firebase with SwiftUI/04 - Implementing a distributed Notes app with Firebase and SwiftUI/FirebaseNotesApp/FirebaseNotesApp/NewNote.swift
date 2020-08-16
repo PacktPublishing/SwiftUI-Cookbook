@@ -26,57 +26,23 @@ struct NewNote: View {
                 TextField("Title", text: $title)
                     .padding(4)
                     .border(Color.gray)
-                MultilineTextView(text: $bodyText)
+                TextEditor(text: $bodyText)
                     .border(Color.gray)
             }
             .padding(32)
             .navigationBarTitle("New Note", displayMode: .inline)
             .navigationBarItems(trailing:
-                Button(action: {
-                    self.repository.newNote(title: self.title,
+                Button {
+                    repository.newNote(title: title,
                                             date: Date(),
-                                            body: self.bodyText)
-                    self.isNewNotePresented.toggle()
-                }) {
+                                            body: bodyText)
+                    isNewNotePresented.toggle()
+                } label: {
                     Image(systemName: "checkmark")
                         .font(.headline)
                 }
                 .disabled(title.isEmpty)
             )
-        }
-    }
-}
-
-struct MultilineTextView: UIViewRepresentable {
-    @Binding
-    var text: String
-
-    func makeUIView(context: Context) -> UITextView {
-        let view = UITextView()
-        view.delegate = context.coordinator
-        view.isScrollEnabled = true
-        view.isEditable = true
-        view.isUserInteractionEnabled = true
-        return view
-    }
-
-    func updateUIView(_ uiView: UITextView, context: Context) {
-        uiView.text = text
-    }
-
-    func makeCoordinator() -> Coordinator {
-        Coordinator(self)
-    }
-
-    class Coordinator : NSObject, UITextViewDelegate {
-        var parent: MultilineTextView
-
-        init(_ uiTextView: MultilineTextView) {
-            self.parent = uiTextView
-        }
-
-        func textViewDidChange(_ textView: UITextView) {
-            parent.text = textView.text ?? ""
         }
     }
 }

@@ -54,12 +54,12 @@ struct Cell: View {
         .padding(20)
         .contentShape(Rectangle())
         .onTapGesture {
-            guard !self.isVisible else {
+            guard !isVisible else {
                 return
             }
-            self.isVisible = true
-            self.isNought = self.isNextNought
-            self.isNextNought.toggle()
+            isVisible = true
+            isNought = isNextNought
+            isNextNought.toggle()
         }
     }
 }

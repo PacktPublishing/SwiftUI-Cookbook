@@ -64,11 +64,11 @@ struct ProgressRingsView: View {
 
 struct ContentView: View {
     @State
-    var progressExternal: Double = 0.3
+    private var progressExternal: Double = 0.3
     @State
-    var progressCentral: Double = 0.7
+    private var progressCentral: Double = 0.7
     @State
-    var progressInternal: Double = 0.5
+    private var progressInternal: Double = 0.5
     
     var body: some View {
         VStack(spacing: 10) {

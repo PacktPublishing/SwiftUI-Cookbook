@@ -16,7 +16,7 @@ struct SignInWithApple: UIViewRepresentable {
     var email: String
 
     func makeCoordinator() -> Coordinator {
-        return Coordinator(self)
+        Coordinator(self)
     }
 
     func makeUIView(context: Context) -> ASAuthorizationAppleIDButton {
@@ -103,12 +103,12 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             Color.white
-            if self.name.isEmpty{
+            if name.isEmpty{
                 SignInWithApple(name: $name, email: $email)
                     .frame(width: 200, height: 50)
             }
             else{
-                Text("Welcome\n\(self.name), \(email)")
+                Text("Welcome\n\(name), \(email)")
                     .foregroundColor(.black)
                     .font(.headline)
             }

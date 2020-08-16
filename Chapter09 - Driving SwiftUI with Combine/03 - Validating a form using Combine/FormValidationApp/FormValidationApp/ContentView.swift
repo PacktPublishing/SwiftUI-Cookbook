@@ -185,9 +185,9 @@ struct ContentView: View {
                     SecureField("Repeat Password", text: $signupViewModel.confirmPassword)
                         .custom()
                 }
-                Button(action: {
+                Button {
                     print("Succesfully registered!")
-                }) {
+                } label: {
                     Text("Register")
                         .foregroundColor(.white)
                         .frame(width: 100, height: 44)

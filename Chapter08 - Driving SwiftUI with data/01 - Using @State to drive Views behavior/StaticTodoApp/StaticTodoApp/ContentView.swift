@@ -47,7 +47,7 @@ struct ContentView: View {
                     }
                     .contentShape(Rectangle())
                     .onTapGesture {
-                        self.todos.toggleDone(to: todo)
+                        todos.toggleDone(to: todo)
                     }
                 }
             }.navigationBarTitle("TODOs")

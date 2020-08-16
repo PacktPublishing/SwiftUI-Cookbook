@@ -38,7 +38,7 @@ struct ContentView: View {
         VStack {
             Banner(message: "Hello, World!", show: show)
             Button(action: {
-                self.show.toggle()
+                show.toggle()
             }) {
                 Text(show ? "Hide" : "Show")
                     .padding()
