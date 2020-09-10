@@ -45,21 +45,21 @@ struct ContentView: View {
                 }
                 .onDelete{ indexSet in
                     if let index = indexSet.first {
-                        self.repository.remove(at: index)
+                        repository.remove(at: index)
                     }
                 }
             }
             .navigationBarTitle("FireNotes", displayMode: .inline)
             .navigationBarItems(trailing:
-                Button(action: {
-                    self.isNewNotePresented.toggle()
-                }) {
+                Button {
+                    isNewNotePresented.toggle()
+                } label: {
                     Image(systemName: "plus")
                         .font(.headline)
                 }
             ).sheet(isPresented: $isNewNotePresented) {
-                NewNote(isNewNotePresented: self.$isNewNotePresented,
-                        repository: self.repository)
+                NewNote(isNewNotePresented: $isNewNotePresented,
+                        repository: repository)
             }
         }
     }

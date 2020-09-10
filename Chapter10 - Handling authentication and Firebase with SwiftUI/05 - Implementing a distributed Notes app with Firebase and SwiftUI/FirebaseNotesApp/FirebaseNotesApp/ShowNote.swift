@@ -16,14 +16,14 @@ struct ShowNote: View {
             Text(note.title)
                 .font(.headline)
                 .fontWeight(.bold)
-            ReadonlyTextView(text: note.body)
+            ReadonlyTextEditor(text: note.body)
                 .border(Color.gray)
         }
         .padding(32)
     }
 }
 
-struct ReadonlyTextView: UIViewRepresentable {
+struct ReadonlyTextEditor: UIViewRepresentable {
     var text: String
     func makeUIView(context: Context) -> UITextView {
         let view = UITextView()

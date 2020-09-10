@@ -95,10 +95,10 @@ struct ContentView: View {
                     .frame(width: 100)
             }
             Button {
-                if self.timer.started {
-                    self.timer.stop()
+                if timer.started {
+                    timer.stop()
                 } else {
-                    self.timer.start()
+                    timer.start()
                 }
             } label: {
                 Text(timer.started ? "Stop" : "Start")

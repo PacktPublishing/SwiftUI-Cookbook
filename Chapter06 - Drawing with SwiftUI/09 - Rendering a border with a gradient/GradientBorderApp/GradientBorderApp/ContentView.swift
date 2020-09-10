@@ -55,9 +55,9 @@ enum Gradients {
 
 struct ContentView: View {
     @State
-    var selectedGradient = 0
+    private var selectedGradient = 0
     @State
-    var progressInternal: Double = 0.7
+    private var progressInternal: Double = 0.7
     
     private let strokeStyle = StrokeStyle(lineWidth: 60,
                                           lineCap: .round,

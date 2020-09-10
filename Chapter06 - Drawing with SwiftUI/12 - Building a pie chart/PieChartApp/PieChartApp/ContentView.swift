@@ -143,10 +143,9 @@ struct PieSlice: View {
     
     var body: some View {
         GeometryReader { geometry in
-            PieSliceShape(percent: self.percent,
-                          startAngle: Angle(degrees:
-                                            self.degrees))
-                .strokeBorder(self.color, lineWidth: geometry.size.width/2)
+            PieSliceShape(percent: percent,
+                          startAngle: Angle(degrees: degrees))
+                .strokeBorder(color, lineWidth: geometry.size.width/2)
                 .rotationEffect(.degrees(-90))
                 .aspectRatio(contentMode: .fit)
         }
