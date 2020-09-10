@@ -111,15 +111,14 @@ class LocationViewModel: ObservableObject {
         locationManager.statusPublisher
             .debounce(for: 0.5, scheduler: RunLoop.main)
             .removeDuplicates()
-            .sink(receiveCompletion: { completion in
+            .sink { completion in
                 switch completion {
                 case .finished:
                     break
                 case .failure(let error):
                     self.errorMessage = error.rawValue
                 }
-            }, receiveValue: { self.status = $0}
-        )
+            } receiveValue: { self.status = $0}
             .store(in: &cancellableSet)
         
         locationManager.locationPublisher

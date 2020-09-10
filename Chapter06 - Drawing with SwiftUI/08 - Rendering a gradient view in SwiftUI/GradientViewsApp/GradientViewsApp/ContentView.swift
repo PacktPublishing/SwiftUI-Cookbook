@@ -60,7 +60,7 @@ struct AngularGradientView: View {
 
 struct ContentView: View {
     @State
-    var selectedGradient = 0
+    private var selectedGradient = 0
     
     var body: some View {
         ZStack(alignment: .top) {

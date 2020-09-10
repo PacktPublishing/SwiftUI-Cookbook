@@ -65,16 +65,16 @@ class WeatherService: ObservableObject {
             .map(\.data)
             .decode(type: Weather.self, decoder: decoder)
             .receive(on: RunLoop.main)
-            .sink(receiveCompletion: { completion in
+            .sink { completion in
                 switch completion {
                 case .finished:
                     break
                 case .failure(let error):
                     self.errorMessage = error.localizedDescription
                 }
-            }, receiveValue: {
+            } receiveValue: {
                 self.current = $0
-            })
+            }
             .store(in: &cancellableSet)
         
         let forecastURL = URL(string: "https://api.openweathermap.org/data/2.5/forecast?lat=\(latitude)&lon=\(longitude)&appid=\(apiKey)&units=metric")!
@@ -83,16 +83,16 @@ class WeatherService: ObservableObject {
             .map(\.data)
             .decode(type: ForecastWeather.self, decoder: decoder)
             .receive(on: RunLoop.main)
-            .sink(receiveCompletion: { completion in
+            .sink { completion in
                 switch completion {
                 case .finished:
                     break
                 case .failure(let error):
                     self.errorMessage = error.localizedDescription
                 }
-            }, receiveValue: {
+            } receiveValue: {
                 self.forecast = $0.list
-            })
+            }
             .store(in: &cancellableSet)
     }
 }
