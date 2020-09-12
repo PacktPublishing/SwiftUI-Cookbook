@@ -28,9 +28,9 @@ struct ContentView: View {
                 .animation(.linear(duration: 1))
                 .frame(width: 300, height: 200)
             
-            Button(action: {
+            Button {
                 initialState.toggle()
-            }) {
+            } label: {
                 Text("Animate")
                     .fontWeight(.heavy)
                     .foregroundColor(.white)

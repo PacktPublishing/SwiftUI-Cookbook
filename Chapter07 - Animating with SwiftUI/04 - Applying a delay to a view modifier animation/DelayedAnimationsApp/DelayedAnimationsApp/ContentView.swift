@@ -34,9 +34,9 @@ struct ContentView: View {
                 
                 .frame(width: 200, height: 200)
             
-            Button(action: {
+            Button  {
                 change.toggle()
-            }) {
+            } label: {
                 Text("Animate")
                     .fontWeight(.heavy)
                     .foregroundColor(.white)
