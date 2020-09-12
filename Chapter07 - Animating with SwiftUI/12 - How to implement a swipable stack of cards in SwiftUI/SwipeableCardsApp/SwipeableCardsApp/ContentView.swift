@@ -30,7 +30,7 @@ extension Array where Element == User {
 
 extension DragGesture.Value {
     func percentage(in geometry: GeometryProxy) -> CGFloat {
-        abs(self.translation.width / geometry.size.width)
+        abs(translation.width / geometry.size.width)
     }
 }
 

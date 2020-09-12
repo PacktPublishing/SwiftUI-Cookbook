@@ -26,7 +26,7 @@ struct ContentView: View {
     @State
     private var onTop = false
     @State
-    private var type: AnimationType =
+    private var type =
         AnimationType(name: "default", animation: .default)
     @State
     private var showSelection = false
@@ -49,7 +49,7 @@ struct ContentView: View {
                     Circle()
                         .fill(Color.blue)
                         .frame(width: 80, height: 80)
-                        .offset(y: self.onTop ?
+                        .offset(y: onTop ?
                             -geometry.size.height/2 :
                             geometry.size.height/2)
                         .animation(Animation.default.speed(0.1))
@@ -57,22 +57,22 @@ struct ContentView: View {
                     Circle()
                         .fill(Color.red)
                         .frame(width: 80, height: 80)
-                        .offset(y: self.onTop ?
+                        .offset(y: onTop ?
                             -geometry.size.height/2 :
                             geometry.size.height/2 )
-                        .animation(self.type.animation.speed(0.1))
+                        .animation(type.animation.speed(0.1))
                 }
                 .padding(.horizontal, 30)
             }
-            Button(action: { self.onTop.toggle() }) {
+            Button { onTop.toggle() } label: {
                 Text("Animate")
             }
-            Button(action: { self.showSelection = true }) {
+            Button { showSelection = true } label: {
                 Text("Choose Animation")
             }
             .actionSheet(isPresented: $showSelection,
                          content: {
-                            self.actionSheet
+                            actionSheet
             })
             Text("Current: \(type.name)")
         }

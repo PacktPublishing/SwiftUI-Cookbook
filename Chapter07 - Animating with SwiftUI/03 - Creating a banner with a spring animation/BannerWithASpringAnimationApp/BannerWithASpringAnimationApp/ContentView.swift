@@ -37,9 +37,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Banner(message: "Hello, World!", show: show)
-            Button(action: {
+            Button {
                 show.toggle()
-            }) {
+            } label: {
                 Text(show ? "Hide" : "Show")
                     .padding()
                     .frame(width: 100)

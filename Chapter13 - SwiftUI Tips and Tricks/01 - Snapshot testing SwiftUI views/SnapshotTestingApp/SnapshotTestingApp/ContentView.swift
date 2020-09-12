@@ -17,11 +17,11 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 16) {
             ForEach(0..<cards.count) { index in
-                Text(self.cards[index].title)
+                Text(cards[index].title)
                     .font(.system(.title))
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .foregroundColor(.white)
-                    .background(self.cards[index].color)
+                    .background(cards[index].color)
                     .cornerRadius(16)
             }
         }.padding(.horizontal, 16)
