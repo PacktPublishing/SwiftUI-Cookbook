@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("motorbike")
+        Image("mountainbike")
             .resizable()
             .aspectRatio(contentMode: .fit)
             .clipShape(Circle())
