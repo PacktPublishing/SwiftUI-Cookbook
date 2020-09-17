@@ -1,14 +1,13 @@
 //
 //  AppDelegate.swift
-//  MenuApp
+//  MapInSwiftUIApp
 //
-//  Created by giordano scalzo on 06/06/2020.
-//  Copyright © 2020 Giordano Scalzo. All rights reserved.
+//  Created by giordano scalzo on 17/09/2020.
 //
 
 import UIKit
 
-@UIApplicationMain
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
