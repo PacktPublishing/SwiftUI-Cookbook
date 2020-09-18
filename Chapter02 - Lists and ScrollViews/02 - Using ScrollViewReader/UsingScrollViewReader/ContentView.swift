@@ -21,12 +21,17 @@ struct ContentView: View {
         ImageStore(name:"j.circle.fill",id:9),
         ImageStore(name:"k.circle.fill",id:10),
         ImageStore(name:"l.circle.fill",id:11),
+        ImageStore(name:"m.circle.fill",id:12),
+        ImageStore(name:"n.circle.fill",id:13),
+        ImageStore(name:"o.circle.fill",id:14),
+        ImageStore(name:"p.circle.fill",id:15),
+        ImageStore(name:"q.circle.fill",id:16),
     ]
     var body: some View {
         ScrollView {
             ScrollViewReader { value in
-                Button("Go to letter L") {
-                    value.scrollTo(11)
+                Button("Go to letter Q") {
+                    value.scrollTo(16)
                 }
                 .padding()
                 .background(Color.yellow)
@@ -39,8 +44,8 @@ struct ContentView: View {
                         .background(Color.blue)
                         .padding()
                 }
-                Button("Go back to A") {
-                    value.scrollTo(0)
+                Button("Go to G") {
+                    value.scrollTo(6, anchor: .bottom)
                 }
                 .padding()
                 .background(Color.yellow)
@@ -49,7 +54,7 @@ struct ContentView: View {
         }
     }
 }
-struct ImageStore:Identifiable {
+struct ImageStore: Identifiable {
     var name: String
     var id: Int
 }
