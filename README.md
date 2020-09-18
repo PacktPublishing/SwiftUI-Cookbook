@@ -1,1 +1,1 @@
-# SwiftUI-Cookbook, published by Packt
+# SwiftUI Cookbook, published by Packt
