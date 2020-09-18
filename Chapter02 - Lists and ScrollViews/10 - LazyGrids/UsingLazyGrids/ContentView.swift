@@ -11,27 +11,31 @@ struct ContentView: View {
     let columns = [
         GridItem(.adaptive(minimum: 100))
     ]
-    let colors: [Color] = [.green,.red, .yellow,.pink]
+    let rows = [
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+        GridItem(.flexible())
+    ]
+    let colors: [Color] = [.green,.red, .yellow,.blue]
     var body: some View {
         VStack {
             ScrollView {
                 LazyVGrid(columns: columns, spacing:20) {
-                    ForEach(1...999, id:\.self){ item in
-                        Text("Item \(item)")
-                            .foregroundColor(.white)
+                    ForEach(1...999, id:\.self){ index in
+                        Text("Item \(index)")
                             .padding(EdgeInsets(top: 30, leading: 15, bottom: 30, trailing: 15))
-                            .background(Color.blue)
+                            .background(colors[index % colors.count])
                             .clipShape(Capsule())
                     }
                 }
             }
             ScrollView(.horizontal) {
-                LazyHGrid(rows: columns, spacing:20) {
-                    ForEach(1...999, id:\.self){ item in
-                        Text("Item \(item)")
+                LazyHGrid(rows: rows, spacing:20) {
+                    ForEach(1...999, id:\.self){ index in
+                        Text("Item \(index)")
                             .foregroundColor(.white)
                             .padding(EdgeInsets(top: 30, leading: 15, bottom: 30, trailing: 15))
-                            .background(Color.blue)
+                            .background(colors[index % colors.count])
                             .clipShape(Capsule())
                     }
                 }
