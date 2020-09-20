@@ -17,11 +17,7 @@ struct ContentView: View {
                     Text("\(number)")
                 }
             }.navigationBarTitle("Number List", displayMode: .inline)
-                .navigationBarItems(trailing: Button(action: {
-                    self.addItemToRow()
-                }){
-                    Text("Add")
-                })
+            .navigationBarItems(trailing: Button("Add", action: addItemToRow))
         }
     }
     private func addItemToRow() {
