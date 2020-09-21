@@ -16,9 +16,14 @@ struct ContentView: View {
     var body: some View {
         List{
             Section(header: Text("ProgressViews")) {
-                ProgressView("Indefinite progress view")
+                ProgressView("Indeterminate progress view")
                 ProgressView("Downloading",value: progress, total:2)
-                Button("More", action: { progress += 0.5 })
+                Button("More"){
+                    if(progress < 2){
+                        progress += 0.5
+                    }
+                    
+                }
             }
             Section(header: Text("Labels")) {
                 Label("Slow ", systemImage: "tortoise.fill")
@@ -35,7 +40,9 @@ struct ContentView: View {
             }
             Section(header: Text("ColorPicker")) {
                 ColorPicker(selection: $color ){
-                    Text("Pick my background").background(color).padding()
+                    Text("Pick my background")
+                        .background(color)
+                        .padding()
                 }
                 ColorPicker("Picker", selection: $secondColor )
             }
@@ -48,12 +55,21 @@ struct ContentView: View {
             }
             Section(header: Text("Menu")) {
                 Menu("Actions") {
-                    Button("Set TextEditor to 'today'", action: {
-                        someText = "Reset"
-                    })
-                    Button("Turn first picker green", action: {
+                    Button("Set TextEditor text to 'magic'"){
+                        someText = "magic"
+                    }
+                    Button("Turn first picker green") {
                         color = Color.green
-                    })
+                    }
+                    Menu("Actions") {
+                        Button("Set TextEditor text to 'magic'"){
+                            someText = "magic"
+                        }
+                        Button("Turn first picker green") {
+                            color = Color.green
+                        }
+                        
+                    }
                 }
             }
         }.listStyle(GroupedListStyle())

@@ -10,7 +10,7 @@ import SwiftUI
 
 struct MenuButtonView: View {
     var body: some View {
-        Text("MenuButtons are currently available on MacOS currently")
+        Text("MenuButtons are deprecated but available on MacOS only")
             .padding()
             .navigationBarTitle("MenuButtons", displayMode: .inline)
         /*
