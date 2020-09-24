@@ -44,11 +44,8 @@ struct signUpView: View {
                     SecureField("Password", text: $password)
                 }
                 
-                Button(action: {
+                Button("Submit") {
                     print("Form submit action here")
-                }){
-                    Text("Submit")
-                  
                 }
               
             }.navigationBarTitle("Sign Up")
