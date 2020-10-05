@@ -23,9 +23,9 @@ struct ContentView: View {
                     .default(Text("Dismiss Sheet")),
                     .default(Text("Save")),
                     .destructive(Text("Cancel")),
-                    .default(Text("Print to console"), action: {
+                    .default(Text("Print to console")){
                         print("Print button clicked")
-                    })
+                    }
             ])
         }
     }

@@ -14,7 +14,7 @@ struct ContentView: View {
                 Image("friendship")
                     .resizable()
                   .aspectRatio(contentMode: .fit)
-                Text("Importance of Friendsip").font(.title)
+                Text("Importance of Friendship").font(.title)
                 Text("Friends helps us deal with stress and make better life choices").multilineTextAlignment(.center).padding()
           }
     }
