@@ -27,7 +27,7 @@ struct ContentView: View {
                         }.padding(.vertical)
                     }
                 }
-            }.navigationBarTitle("Great Insects")
+            }.navigationBarTitle("Insects")
         }
     }
 }
