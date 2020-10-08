@@ -13,18 +13,15 @@ struct ContentView: View {
     @State private var showSimpleAlert = false
     var body: some View {
         VStack{
-             Toggle(isOn: $showTwoButtonsAlert) {
-                 Text("Display alert")
-                 }.padding()
-                 
+            Button("Show Two Button Alert"){
+                showTwoButtonsAlert = true
+            }.padding()
                  .alert(isPresented: $showTwoButtonsAlert){
                     Alert(title: Text("Turn on the Switch?"), message:Text("Are you sure"),
-                          primaryButton: .default(Text("Yes"), action: {
-                        self.showTwoButtonsAlert = true
-                    }), secondaryButton: .cancel(Text("No")))
+                          primaryButton: .default(Text("Yes")), secondaryButton: .cancel(Text("No")))
             }
             Button("Display other alert"){
-                self.showSimpleAlert = true
+                showSimpleAlert = true
             }.alert(isPresented: $showSimpleAlert){
                 Alert(title: Text("Minimalist Alert"))
             }
