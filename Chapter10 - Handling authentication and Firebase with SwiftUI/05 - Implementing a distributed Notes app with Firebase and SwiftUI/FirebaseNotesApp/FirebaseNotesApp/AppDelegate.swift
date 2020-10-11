@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-@UIApplicationMain
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
