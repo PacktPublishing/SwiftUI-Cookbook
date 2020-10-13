@@ -1,9 +1,8 @@
 //
 //  ContentView.swift
-//  EditingListApp
+//  EditListApp
 //
-//  Created by Edgar Nzokwe on 3/20/20.
-//  Copyright © 2020 Edgar Nzokwe. All rights reserved.
+//  Created by Edgar Nzokwe on 10/13/20.
 //
 
 import SwiftUI
