@@ -31,7 +31,7 @@ class RemoteConfig: ObservableObject {
             guard status == .success else {
                 return
             }
-            self?.remoteConfig.activate { (error) in
+            self?.remoteConfig.fetchAndActivate {  _, _ in
                 DispatchQueue.main.async {
                     self?.setProperties()
                 }

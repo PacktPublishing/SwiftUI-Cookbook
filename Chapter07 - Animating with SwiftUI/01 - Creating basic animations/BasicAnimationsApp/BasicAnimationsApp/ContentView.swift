@@ -52,7 +52,7 @@ struct ContentView: View {
                         .offset(y: onTop ?
                             -geometry.size.height/2 :
                             geometry.size.height/2)
-                        .animation(Animation.default.speed(0.1))
+                        .animation(Animation.default)
                     Spacer()
                     Circle()
                         .fill(Color.red)
@@ -60,7 +60,7 @@ struct ContentView: View {
                         .offset(y: onTop ?
                             -geometry.size.height/2 :
                             geometry.size.height/2 )
-                        .animation(type.animation.speed(0.1))
+                        .animation(type.animation)
                 }
                 .padding(.horizontal, 30)
             }

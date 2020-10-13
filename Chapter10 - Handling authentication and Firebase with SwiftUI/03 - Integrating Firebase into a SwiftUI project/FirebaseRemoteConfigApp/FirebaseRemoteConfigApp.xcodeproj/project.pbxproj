@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C2FF1040FAAC993979D2036 /* Pods_FirebaseRemoteConfigApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8EE5E7DBB8C872219E4C14 /* Pods_FirebaseRemoteConfigApp.framework */; };
+		99E71F25B809ECD1ADE6770B /* Pods_FirebaseRemoteConfigApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89387969DBB23411F9656B36 /* Pods_FirebaseRemoteConfigApp.framework */; };
 		EE6C82B12455F4C700347567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C82B02455F4C700347567 /* AppDelegate.swift */; };
 		EE6C82B32455F4C700347567 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C82B22455F4C700347567 /* SceneDelegate.swift */; };
 		EE6C82B52455F4C700347567 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C82B42455F4C700347567 /* ContentView.swift */; };
@@ -18,9 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E660C23DC57ACF999E4D0A8 /* Pods-FirebaseRemoteConfigApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseRemoteConfigApp.release.xcconfig"; path = "Target Support Files/Pods-FirebaseRemoteConfigApp/Pods-FirebaseRemoteConfigApp.release.xcconfig"; sourceTree = "<group>"; };
-		D23164E95E878DC8DCCD37CF /* Pods-FirebaseRemoteConfigApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseRemoteConfigApp.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseRemoteConfigApp/Pods-FirebaseRemoteConfigApp.debug.xcconfig"; sourceTree = "<group>"; };
-		DD8EE5E7DBB8C872219E4C14 /* Pods_FirebaseRemoteConfigApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseRemoteConfigApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89387969DBB23411F9656B36 /* Pods_FirebaseRemoteConfigApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseRemoteConfigApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C921B4ACF602D1594A84CB65 /* Pods-FirebaseRemoteConfigApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseRemoteConfigApp.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseRemoteConfigApp/Pods-FirebaseRemoteConfigApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E52218E1065C7DEE0572F0DA /* Pods-FirebaseRemoteConfigApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseRemoteConfigApp.release.xcconfig"; path = "Target Support Files/Pods-FirebaseRemoteConfigApp/Pods-FirebaseRemoteConfigApp.release.xcconfig"; sourceTree = "<group>"; };
 		EE6C82AD2455F4C700347567 /* FirebaseRemoteConfigApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseRemoteConfigApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6C82B02455F4C700347567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE6C82B22455F4C700347567 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C2FF1040FAAC993979D2036 /* Pods_FirebaseRemoteConfigApp.framework in Frameworks */,
+				99E71F25B809ECD1ADE6770B /* Pods_FirebaseRemoteConfigApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,16 +47,16 @@
 		8D2F7F42519FE4855927E38B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D23164E95E878DC8DCCD37CF /* Pods-FirebaseRemoteConfigApp.debug.xcconfig */,
-				5E660C23DC57ACF999E4D0A8 /* Pods-FirebaseRemoteConfigApp.release.xcconfig */,
+				C921B4ACF602D1594A84CB65 /* Pods-FirebaseRemoteConfigApp.debug.xcconfig */,
+				E52218E1065C7DEE0572F0DA /* Pods-FirebaseRemoteConfigApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		CE220D3CEFF1723A8A6CF028 /* Frameworks */ = {
+		A78A620C5123AEEB495FC5D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD8EE5E7DBB8C872219E4C14 /* Pods_FirebaseRemoteConfigApp.framework */,
+				89387969DBB23411F9656B36 /* Pods_FirebaseRemoteConfigApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -67,7 +67,7 @@
 				EE6C82AF2455F4C700347567 /* FirebaseRemoteConfigApp */,
 				EE6C82AE2455F4C700347567 /* Products */,
 				8D2F7F42519FE4855927E38B /* Pods */,
-				CE220D3CEFF1723A8A6CF028 /* Frameworks */,
+				A78A620C5123AEEB495FC5D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,11 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE6C82C12455F4C900347567 /* Build configuration list for PBXNativeTarget "FirebaseRemoteConfigApp" */;
 			buildPhases = (
-				6136656816152823E790CA65 /* [CP] Check Pods Manifest.lock */,
+				6B9938F5B284D78A26601F12 /* [CP] Check Pods Manifest.lock */,
 				EE6C82A92455F4C700347567 /* Sources */,
 				EE6C82AA2455F4C700347567 /* Frameworks */,
 				EE6C82AB2455F4C700347567 /* Resources */,
-				76D18B13463D1B2E4FEB7F95 /* [CP] Embed Pods Frameworks */,
+				BA8AF9FCFD61DBDFCD61AEB3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,7 +172,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6136656816152823E790CA65 /* [CP] Check Pods Manifest.lock */ = {
+		6B9938F5B284D78A26601F12 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,7 +194,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		76D18B13463D1B2E4FEB7F95 /* [CP] Embed Pods Frameworks */ = {
+		BA8AF9FCFD61DBDFCD61AEB3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,7 +289,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -344,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -356,7 +356,7 @@
 		};
 		EE6C82C22455F4C900347567 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D23164E95E878DC8DCCD37CF /* Pods-FirebaseRemoteConfigApp.debug.xcconfig */;
+			baseConfigurationReference = C921B4ACF602D1594A84CB65 /* Pods-FirebaseRemoteConfigApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,7 +377,7 @@
 		};
 		EE6C82C32455F4C900347567 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E660C23DC57ACF999E4D0A8 /* Pods-FirebaseRemoteConfigApp.release.xcconfig */;
+			baseConfigurationReference = E52218E1065C7DEE0572F0DA /* Pods-FirebaseRemoteConfigApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
