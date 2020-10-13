@@ -40,8 +40,8 @@ With the following software and hardware list you can run all code files present
 
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 1 to 13       | Xcode 12                     | Mac OS 
-| 10       | Firebase account            |  Mac OS |
+| 1 to 13       | Xcode 12                     | macOS
+| 10       | Firebase account            |  macOS |
 
 
 ### Related products <Other books you may enjoy>
