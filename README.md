@@ -7,7 +7,7 @@ This is the code repository for [SwiftUI Cookbook](https://www.packtpub.com/prod
 **Discover solutions and best practices to tackle the most common problems while building SwiftUI apps**
 
 ## What is this book about?
-	SwiftUI is an innovative and simple way to build beautiful user interfaces for all Apple platforms, right from iOS and macOS through to watchOS and tvOS, using the Swift programming language. In this recipe-based book, you’ll work with SwiftUI and explore a range of essential techniques and concepts that will help you through the development process. The recipes cover the foundations of SwiftUI, as well the new features of SwiftUI 2.0 introduced in iOS 14. A few recipes are addressed to make some new SwiftUI 2.0 components retrocompatible to iOS 13, such as the Map view or the Sign in With Apple View.
+SwiftUI is an innovative and simple way to build beautiful user interfaces for all Apple platforms, right from iOS and macOS through to watchOS and tvOS, using the Swift programming language. In this recipe-based book, you’ll work with SwiftUI and explore a range of essential techniques and concepts that will help you through the development process. The recipes cover the foundations of SwiftUI, as well the new features of SwiftUI 2.0 introduced in iOS 14. A few recipes are addressed to make some new SwiftUI 2.0 components retrocompatible to iOS 13, such as the Map view or the Sign in With Apple View.
 
 This book covers the following exciting features: 
 * Explore various layout presentations in SwiftUI such as HStack, VStack, LazyHStack, LazyVGrid, and more
