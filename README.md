@@ -45,9 +45,9 @@ With the following software and hardware list you can run all code files present
 
 
 ### Related products <Other books you may enjoy>
-* Linux: Powerful Server Administration [[Packt]](https://www.packtpub.com/networking-and-servers/linux-powerful-server-administration?utm_source=github&utm_medium=repository&utm_campaign=9781788293778) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* iOS 14 Programming for Beginners - Fifth Edition [[Packt]](https://www.packtpub.com/mobile/ios-14-programming-for-beginners-fifth-edition) [[Amazon]](https://www.amazon.com/dp/1800209746)
 
-* Linux Device Drivers Development [[Packt]](https://www.packtpub.com/networking-and-servers/linux-device-drivers-development?utm_source=github&utm_medium=repository&utm_campaign=9781785280009) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Learn SwiftUI [[Packt]](https://www.packtpub.com/product/learn-swiftui/9781839215421) [[Amazon]](https://www.amazon.com/dp/1839215429)
 
 ## Get to Know the Author(s)
 **Giordano Scalzo**
