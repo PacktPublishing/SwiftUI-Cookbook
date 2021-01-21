@@ -1,8 +1,3 @@
-## $5 Tech Unlocked 2021!
-[Buy and download this Book for only $5 on PacktPub.com](https://www.packtpub.com/product/swiftui-cookbook/9781838981860)
------
-*If you have read this book, please leave a review on [Amazon.com](https://www.amazon.com/gp/product/1838981861).     Potential readers can then use your unbiased opinion to help them make purchase decisions. Thank you. The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
-
 # SwiftUI Cookbook
 
 <a href="https://www.packtpub.com/product/swiftui-cookbook/9781838981860"><img src="https://static.packt-cdn.com/products/9781838981860/cover/smaller" alt="SwiftUI Cookbook" height="256px" align="right"></a>
