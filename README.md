@@ -60,3 +60,7 @@ is a software engineer at Booz Allen and an adjunct computer science instructor 
 ## Other books by the authors
 * [Swift by Example](https://www.packtpub.com/product/swift-by-example/9781785284700)
 * [Swift 2 By Example](https://www.packtpub.com/product/swift-2-by-example/9781785882920)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781838981860">https://packt.link/free-ebook/9781838981860 </a> </p>
